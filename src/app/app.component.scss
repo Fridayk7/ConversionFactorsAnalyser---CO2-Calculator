@@ -1,0 +1,10 @@
+:host{
+display: flex;
+flex-direction: column;
+    .cf-evolution-wrapper{display: flex; height: 600px;
+    .cf-selection{overflow: scroll;}
+    
+    .cf-evolution-chart{width: 100%; height: 600px}
+    }
+
+}
