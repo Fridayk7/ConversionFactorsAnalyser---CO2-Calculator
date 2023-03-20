@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { map } from 'rxjs/internal/operators/map';
+import { DataService } from './data.service';
+import { combineLatest } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
@@ -53,6 +54,173 @@ export class DataProccessorService {
       .reduce((cur, key) => {
         return Object.assign(cur, { [key]: data[key] });
       }, {});
+  }
+
+  transformQualityChecks(
+    missingValues: any,
+    missingTags: any,
+    missingSourceUnits: any,
+    missingTargetUnits: any,
+    negativeValues: any,
+    missingStartDates: any,
+    missingEndDates: any,
+    missingCountries: any
+  ) {
+    let validations: any = [];
+
+    if (missingValues.length) {
+      missingValues.forEach((x: any) => {
+        validations.push({
+          checkName: 'Missing Value',
+          lookupName: x.lookUpNames.value,
+          sourceUnit: x.sourceUnitNames.value,
+          targeUnit: x.targetUnitNames.value,
+          year: new Date(x.endDate.value),
+        });
+      });
+    } else {
+      validations.push({
+        checkName: 'Missing Value',
+        lookupName: 'No Data Found',
+        sourceUnit: 'No Data Found',
+        targeUnit: 'No Data Found',
+        year: 'No Data Found',
+      });
+    }
+    if (missingTags.length) {
+      missingTags.forEach((x: any) => {
+        validations.push({
+          checkName: 'Missing Tags',
+          lookupName: x.lookUpNames.value,
+          sourceUnit: x.sourceUnitNames.value,
+          targeUnit: x.targetUnitNames.value,
+          year: new Date(x.endDate.value),
+        });
+      });
+    } else {
+      validations.push({
+        checkName: 'Missing Tags',
+        lookupName: 'No Data Found',
+        sourceUnit: 'No Data Found',
+        targeUnit: 'No Data Found',
+        year: 'No Data Found',
+      });
+    }
+    if (missingSourceUnits.length) {
+      missingSourceUnits.forEach((x: any) => {
+        validations.push({
+          checkName: 'Missing Source Unit',
+          lookupName: x.lookUpNames.value,
+          sourceUnit: '',
+          targeUnit: x.targetUnitNames.value,
+          year: new Date(x.endDate.value),
+        });
+      });
+    } else {
+      validations.push({
+        checkName: 'Missing Source Unit',
+        lookupName: 'No Data Found',
+        sourceUnit: 'No Data Found',
+        targeUnit: 'No Data Found',
+        year: 'No Data Found',
+      });
+    }
+    if (missingTargetUnits.length) {
+      missingTargetUnits.forEach((x: any) => {
+        validations.push({
+          checkName: 'Missing Target Unit',
+          lookupName: x.lookUpNames.value,
+          sourceUnit: x.sourceUnitNames.value,
+          targeUnit: '',
+          year: new Date(x.endDate.value),
+        });
+      });
+    } else {
+      validations.push({
+        checkName: 'Missing Target Unit',
+        lookupName: 'No Data Found',
+        sourceUnit: 'No Data Found',
+        targeUnit: 'No Data Found',
+        year: 'No Data Found',
+      });
+    }
+    if (missingTargetUnits.length) {
+      negativeValues.forEach((x: any) => {
+        validations.push({
+          checkName: 'Negative Values',
+          lookupName: x.lookUpNames.value,
+          sourceUnit: x.sourceUnitNames.value,
+          targeUnit: x.targetUnitNames.value,
+          year: new Date(x.endDate.value),
+        });
+      });
+    } else {
+      validations.push({
+        checkName: 'Negative Values',
+        lookupName: 'No Data Found',
+        sourceUnit: 'No Data Found',
+        targeUnit: 'No Data Found',
+        year: 'No Data Found',
+      });
+    }
+    if (missingTargetUnits.length) {
+      missingStartDates.forEach((x: any) => {
+        validations.push({
+          checkName: 'Missing Start Date',
+          lookupName: x.lookUpNames.value,
+          sourceUnit: x.sourceUnitNames.value,
+          targeUnit: x.targetUnitNames.value,
+          year: new Date(x.endDate.value),
+        });
+      });
+    } else {
+      validations.push({
+        checkName: 'Missing Start Date',
+        lookupName: 'No Data Found',
+        sourceUnit: 'No Data Found',
+        targeUnit: 'No Data Found',
+        year: 'No Data Found',
+      });
+    }
+    if (missingTargetUnits.length) {
+      missingEndDates.forEach((x: any) => {
+        validations.push({
+          checkName: 'Missing End Date',
+          lookupName: x.lookUpNames.value,
+          sourceUnit: x.sourceUnitNames.value,
+          targeUnit: x.targetUnitNames.value,
+          year: new Date(x.startDate.value),
+        });
+      });
+    } else {
+      validations.push({
+        checkName: 'Missing End Date',
+        lookupName: 'No Data Found',
+        sourceUnit: 'No Data Found',
+        targeUnit: 'No Data Found',
+        year: 'No Data Found',
+      });
+    }
+    if (missingTargetUnits.length) {
+      missingCountries.forEach((x: any) => {
+        validations.push({
+          checkName: 'Missing Country',
+          lookupName: x.lookUpNames.value,
+          sourceUnit: x.sourceUnitNames.value,
+          targeUnit: x.targetUnitNames.value,
+          year: new Date(x.endDate.value),
+        });
+      });
+    } else {
+      validations.push({
+        checkName: 'Missing Country',
+        lookupName: 'No Data Found',
+        sourceUnit: 'No Data Found',
+        targeUnit: 'No Data Found',
+        year: 'No Data Found',
+      });
+    }
+    return validations;
   }
 
   private checkIncrease(data: any) {

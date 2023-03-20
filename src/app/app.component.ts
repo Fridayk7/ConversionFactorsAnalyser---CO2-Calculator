@@ -2,9 +2,9 @@ import { Component } from '@angular/core';
 import { DataService } from './data.service';
 import { DataProccessorService } from './data_processor.service';
 
-import { ColDef, GridApi, GridReadyEvent, IRowNode } from 'ag-grid-community';
-import { Grid, GridOptions } from 'ag-grid-community';
+import { ColDef } from 'ag-grid-community';
 import * as echarts from 'echarts';
+import { combineLatest } from 'rxjs';
 
 interface CF {
   conversionFactors: { type: string; value: string };
@@ -23,6 +23,20 @@ export class AppComponent {
     private _data: DataService,
     private _processing: DataProccessorService
   ) {}
+  rowStyle = { background: '#ff9966' };
+  getRowStyle = (params: any) => {
+    console.log(params);
+
+    if (
+      params.node.allLeafChildren &&
+      params.node.allLeafChildren[0].data.lookupName === 'No Data Found'
+    ) {
+      return { background: '#99cc33' };
+    } else if (params.data && params.data.lookupName === 'No Data Found') {
+      return { background: '#99cc33' };
+    }
+    return { background: '#ff9966' };
+  };
   public allCF: any;
   public cf_evolution_series: any = [];
   public cf_groups: any;
@@ -35,9 +49,6 @@ export class AppComponent {
     },
     tooltip: {
       trigger: 'axis',
-    },
-    legend: {
-      data: ['Email', 'Union Ads', 'Video Ads', 'Direct', 'Search Engine'],
     },
     grid: {
       left: '3%',
@@ -63,32 +74,67 @@ export class AppComponent {
 
   title = 'carbon-layer1';
 
-  // public missingTagsResult: any;
-  // columnDefs: ColDef[] = [
-  //   { headerName: 'Check Name', field: 'check-name', width:120, rowGroup: true },
-  //   { headerName: 'Lookup Name', field: 'lookup-name', width:120 },
-  //   { headerName: 'Source Unit', field: 'source-unit', width:120 },
-  //   { headerName: 'Target Unit', field: 'targe-unit', width:120 },
-  //   { headerName: 'Year', field: 'year', width:120 },
-  // ];
-
-  // gridOptions ={defaultColDef:{sortble: true,}},
-  // columnDefs: this.columnDefs,
-  // rowData: null,};
-
-  // rowData = [
-  //   { make: 'Toyota', model: 'Celica', price: 35000 },
-  //   { make: 'Ford', model: 'Mondeo', price: 32000 },
-  //   { make: 'Porsche', model: 'Boxster', price: 72000 },
-  // ];
-  // public gridOptions: any = {
-  //   rowSelection: 'multiple',
-  //   onGridReady: function (params: any) {},
-  // };
+  public missingTagsResult: any;
+  rowData = [];
+  public columnDefs: ColDef[] = [
+    {
+      headerName: 'Check Name',
+      field: 'checkName',
+      width: 400,
+      rowGroup: true,
+      hide: true,
+    },
+    { headerName: 'Lookup Name', field: 'lookupName', width: 400 },
+    { headerName: 'Source Unit', field: 'sourceUnit', width: 400 },
+    { headerName: 'Target Unit', field: 'targeUnit', width: 400 },
+    { headerName: 'Year', field: 'year', width: 400 },
+  ];
 
   ngOnInit() {
-    this._data.getMissingTags().subscribe((res: any) => console.log(res));
-    this._data.getConversionFactors().subscribe((res: any) => {
+    let missingValues$ = this._data.getMissingValues();
+    let missingTags$ = this._data.getMissingTags();
+    let missingSourceUnits$ = this._data.getMissingSourceUnits();
+    let missingTargetUnits$ = this._data.getMissingTargetUnits();
+    let missingStartDates$ = this._data.getMissingStartDates();
+    let missingEndDates$ = this._data.getMissingEndDates();
+    let negativeValues$ = this._data.getNegativeValues();
+    let missingCountries$ = this._data.getMissingCountries();
+    combineLatest(
+      missingValues$,
+      missingTags$,
+      missingSourceUnits$,
+      missingTargetUnits$,
+      missingStartDates$,
+      missingEndDates$,
+      negativeValues$,
+      missingCountries$
+    ).subscribe(
+      ([
+        missingValues,
+        missingTags,
+        missingSourceUnits,
+        missingTargetUnits,
+        missingStartDates,
+        missingEndDates,
+        negativeValues,
+        missingCountries,
+      ]) => {
+        let rowData = this._processing.transformQualityChecks(
+          missingValues,
+          missingTags,
+          missingSourceUnits,
+          missingTargetUnits,
+          negativeValues,
+          missingStartDates,
+          missingEndDates,
+          missingCountries
+        );
+
+        this.rowData = rowData;
+      }
+    );
+
+    this._data.getConversionFactors().subscribe(async (res: any) => {
       res = this._processing.convertDate(res);
       this.allCF = this._processing.sortByName(res);
 
@@ -108,6 +154,7 @@ export class AppComponent {
         this.cf_evolution_series.push(newEntry);
       }
       console.log(this.cf_groups);
+      console.log('QUALITY CHECKS');
       this.chartDom = document.getElementById('cf-evolution');
       this.myChart = echarts.init(this.chartDom);
       this.option.series = this.cf_evolution_series;
