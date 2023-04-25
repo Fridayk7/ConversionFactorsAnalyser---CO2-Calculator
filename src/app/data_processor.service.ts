@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { DataService } from './data.service';
 import { combineLatest } from 'rxjs';
-
+declare var require: any;
 @Injectable({
   providedIn: 'root',
 })
@@ -46,6 +46,12 @@ export class DataProccessorService {
   convertDate(data: any) {
     data.map((x: any) => (x.endDate.value = new Date(x.endDate.value)));
     return data;
+  }
+
+  getAppliances(data: any) {
+    let appliances = [];
+    data.forEach((x: any) => appliances.push(x.title.value));
+    return appliances;
   }
 
   findFluctuations(data: any) {
