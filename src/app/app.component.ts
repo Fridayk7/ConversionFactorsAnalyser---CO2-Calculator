@@ -135,6 +135,9 @@ export class AppComponent {
     );
 
     this._data.getConversionFactors().subscribe(async (res: any) => {
+      this._data.getDefra().subscribe(async (resd: any) => {
+        console.log(this._processing.compareDataSets(res, resd));
+      });
       res = this._processing.convertDate(res);
       this.allCF = this._processing.sortByName(res);
 

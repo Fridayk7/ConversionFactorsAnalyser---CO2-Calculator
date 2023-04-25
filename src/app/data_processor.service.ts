@@ -231,4 +231,114 @@ export class DataProccessorService {
     }
     return false;
   }
+
+  counter = (str) => {
+    return str.split('').reduce((total, letter) => {
+      total[letter] ? total[letter]++ : (total[letter] = 1);
+      return total;
+    }, {});
+  };
+
+  private word2vec(word) {
+    let charFreq = this.counter(word);
+
+    let charSet = new Set(Object.keys(charFreq));
+
+    let powerArray = [];
+    for (let i in charFreq) {
+      powerArray.push(charFreq[i] * charFreq[i]);
+    }
+    let lengthw = Math.sqrt(powerArray.reduce((a, b) => a + b, 0));
+
+    return [charFreq, charSet, lengthw];
+  }
+
+  private cosdis(v1, v2) {
+    let commonLetters = new Set([...v1[1]].filter((x) => v2[1].has(x)));
+
+    let numeratorArray = [];
+
+    for (let i of commonLetters) {
+      numeratorArray.push(v1[0][i] * v2[0][i]);
+    }
+
+    return numeratorArray.reduce((a, b) => a + b, 0) / v1[2] / v2[2];
+  }
+  compareDataSets(data1: any, data2: any) {
+    var stringSimilarity = require('string-similarity');
+    let cosineSimilarity = (str1, str2) => {
+      return this.cosdis(this.word2vec(str1), this.word2vec(str2));
+    };
+    let diceIntersection = [];
+    let cosineIntersection = [];
+    let threshhold = 0.3;
+
+    for (let i of data1) {
+      for (let j of data2) {
+        if (
+          stringSimilarity.compareTwoStrings(
+            i.lookUpNames.value,
+            j.lookUpNames.value
+          ) > 0.4 &&
+          stringSimilarity.compareTwoStrings(
+            i.sourceUnitNames.value,
+            j.sourceUnitNames.value
+          ) > 0.2 &&
+          stringSimilarity.compareTwoStrings(
+            i.targetUnitNames.value,
+            j.targetUnitNames.value
+          ) >= 0.9
+        ) {
+          diceIntersection.push([i, j]);
+        }
+
+        if (
+          cosineSimilarity(i.lookUpNames.value, j.lookUpNames.value) > 0.1 &&
+          cosineSimilarity(i.sourceUnitNames.value, j.sourceUnitNames.value) >
+            0.1 &&
+          cosineSimilarity(i.targetUnitNames.value, j.targetUnitNames.value) >=
+            0.1
+        ) {
+          cosineIntersection.push([i, j]);
+        }
+      }
+    }
+    console.log({ dice: diceIntersection, cosine: cosineIntersection });
+    return { dice: diceIntersection, cosine: cosineIntersection };
+
+    // var similarity = stringSimilarity.compareTwoStrings(
+    //   'Coal (industrial)',
+    //   'Coal'
+    // );
+
+    // return similarity;
+  }
+
+  // compareDataSetsJaccard(data1: any, data2: any) {
+  //   let jaccard = require('jaccard-similarity-sentences');
+  //   let intersection = [];
+  //   let threshhold = 0.3;
+  //   var similarity = jaccard.jaccardSimilarity('kg CO2', 'kg CO2e');
+  //   console.log(similarity);
+
+  //   for (let i of data1) {
+  //     for (let j of data2) {
+  //       if (
+  //         jaccard.jaccardSimilarity(i.lookUpNames.value, j.lookUpNames.value) >
+  //           0.4 &&
+  //         jaccard.jaccardSimilarity(
+  //           i.sourceUnitNames.value,
+  //           j.sourceUnitNames.value
+  //         ) > 0.3 &&
+  //         jaccard.jaccardSimilarity(
+  //           i.targetUnitNames.value,
+  //           j.targetUnitNames.value
+  //         ) >= 0.9
+  //       ) {
+  //         intersection.push([i, j]);
+  //       }
+  //     }
+  //   }
+  //   return intersection;
+  // }
 }
