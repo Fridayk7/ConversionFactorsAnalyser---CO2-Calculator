@@ -33,6 +33,7 @@
     "fs": "^0.0.1-security",
     "natural": "^6.2.0",
     "net": "^1.0.2",
+    "ngx-spinner": "^15.0.1",
     "path": "^0.12.7",
     "path-browserify": "^1.0.1",
     "powerthesaurus-api": "^2.0.3",

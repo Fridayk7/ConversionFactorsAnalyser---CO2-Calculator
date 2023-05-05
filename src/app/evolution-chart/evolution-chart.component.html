@@ -1,0 +1,41 @@
+<div class="cf-evolution-wrapper">
+  <div class="categories">
+    <div
+      *ngFor="let item of cf_groups | keyvalue"
+      [id]="item.key"
+      class="category"
+      (click)="selectCategory($event)"
+    >
+      {{ item.key }} <br />
+      ( {{ singleFluctuationsLength(item.key) }} )
+    </div>
+  </div>
+  <div class="chart-wrapper">
+    <div id="cf-evolution" class="cf-evolution-chart"></div>
+    <fieldset class="cf-selection">
+      <legend>Conversion factors: (Name - Source Unit - Target Unit)</legend>
+
+      <cdk-virtual-scroll-viewport appendOnly itemSize="100" class="viewport">
+        <div *cdkVirtualFor="let cf of allCF" class="viewport-item">
+          <input
+            (change)="selectCF($event)"
+            type="checkbox"
+            id="{{ cf.lookUpNames.value }}+{{ cf.sourceUnitNames.value }}+{{
+              cf.targetUnitNames.value
+            }}"
+            name="{{ cf.conversionFactors.value }}"
+          />
+          <label for="{{ cf.conversionFactors.value }}"
+            >{{ cf.lookUpNames.value }}-</label
+          >
+          <label for="{{ cf.conversionFactors.value }}"
+            >{{ cf.sourceUnitNames.value }}-</label
+          >
+          <label for="{{ cf.conversionFactors.value }}"
+            >{{ cf.targetUnitNames.value }}-</label
+          >
+        </div>
+      </cdk-virtual-scroll-viewport>
+    </fieldset>
+  </div>
+</div>

@@ -1,0 +1,63 @@
+<div class="calculator">
+  <h3>Carbon Emiisions Calculator</h3>
+
+  <form
+    [formGroup]="householdForm"
+    class="calculator-form"
+    (ngSubmit)="onSubmit()"
+  >
+    <div class="input-div">
+      <label for="name"> Natural Gas </label>
+      <input
+        type="text"
+        id="natural-gas-value"
+        formControlName="naturalGasValue"
+      />
+      <label for="cars">Choose a car:</label>
+      <select id="natural-gas-uom" formControlName="naturalGasUom">
+        <option value="mmbtu">mmbtu</option>
+        <option value="scf">scf</option>
+      </select>
+    </div>
+
+    <div class="input-div">
+      <label for="address"> Electricity </label>
+      <input
+        type="text"
+        id="electricity-value"
+        formControlName="electricityValue"
+      />
+
+      <label for="cars">Choose a car:</label>
+      <select id="electricity-uom" formControlName="electricityUom">
+        <option value="mmbtu">mmbtu</option>
+        <option value="scf">scf</option>
+      </select>
+    </div>
+
+    <div class="input-div">
+      <label for="address"> Fuel Oil </label>
+      <input type="text" id="fuel-oil-value" formControlName="fuelOilValue" />
+
+      <label for="cars">Choose a car:</label>
+      <select id="fuel-oil-uom" formControlName="fuelOilUom">
+        <option value="mmbtu">mmbtu</option>
+        <option value="gallon">gallon</option>
+      </select>
+    </div>
+
+    <div class="input-div">
+      <label for="address">Propane</label>
+      <input type="text" id="propane-value" formControlName="propaneValue" />
+      <label for="cars">choose unit of measurement</label>
+      <select id="propane-uom" formControlName="propaneUom">
+        <option value="mmbtu">mmbtu</option>
+        <option value="gallon">gallon</option>
+      </select>
+    </div>
+
+    <button class="button" type="submit">Purchase</button>
+  </form>
+  <div>{{ formResult }}</div>
+  <div *ngFor="let warning of warnings">{{ warning }}</div>
+</div>

@@ -1,0 +1,48 @@
+.cf-evolution-wrapper {
+  display: flex;
+  flex-direction: column;
+  .cf-selection {
+    width: 20%;
+    border: none;
+  }
+
+  .cf-evolution-chart {
+    width: 80%;
+    height: 600px;
+  }
+}
+
+.viewport {
+  height: 600px;
+  width: 100%;
+}
+
+viewport-item {
+  height: 16px;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+  overflow-y: scroll;
+  grid-gap: 16px;
+  margin-top: 16px;
+}
+
+.category {
+  border-radius: 16px;
+  border: 1px solid #8787f4;
+  height: 40px;
+  width: 120px;
+  text-align: center;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chart-wrapper {
+  display: flex;
+  height: 600px;
+}

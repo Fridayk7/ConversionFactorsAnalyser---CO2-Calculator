@@ -1,174 +1,53 @@
-<ag-grid-angular
-  style="width: 100%; height: 600px"
-  class="ag-theme-alpine"
-  [rowData]="rowData"
-  [columnDefs]="columnDefs"
-  [rowStyle]="rowStyle"
-  [getRowStyle]="getRowStyle"
->
-</ag-grid-angular>
-
-<div class="cf-evolution-wrapper">
-  <div id="cf-evolution" class="cf-evolution-chart"></div>
-  <fieldset class="cf-selection">
-    <legend>Choose your monster's features:</legend>
-
-    <div *ngFor="let cf of allCF">
-      <input
-        (change)="selectCF($event)"
-        type="checkbox"
-        id="{{ cf.lookUpNames.value }}+{{ cf.sourceUnitNames.value }}+{{
-          cf.targetUnitNames.value
-        }}"
-        name="{{ cf.conversionFactors.value }}"
-      />
-      <label for="{{ cf.conversionFactors.value }}"
-        >{{ cf.lookUpNames.value }}-</label
-      >
-      <label for="{{ cf.conversionFactors.value }}"
-        >{{ cf.sourceUnitNames.value }}-</label
-      >
-      <label for="{{ cf.conversionFactors.value }}"
-        >{{ cf.targetUnitNames.value }}-</label
-      >
-    </div>
-  </fieldset>
-</div>
-
-<div class="calculator">
-  <h3>Carbon Emiisions Calculator</h3>
-
-  <form
-    [formGroup]="householdForm"
-    class="calculator-form"
-    (ngSubmit)="onSubmit()"
+<nav class="navbar navbar-expand-md navbar-dark bg-primary">
+  <a
+    class="nav-link"
+    routerLinkActive="active"
+    [routerLink]="['data-validation']"
+    style="color: white"
+    >Data Validation</a
   >
-    <div class="input-div">
-      <label for="name"> Natural Gas </label>
-      <input
-        type="text"
-        id="natural-gas-value"
-        formControlName="naturalGasValue"
-      />
-      <label for="cars">Choose a car:</label>
-      <select id="natural-gas-uom" formControlName="naturalGasUom">
-        <option value="mmbtu">mmbtu</option>
-        <option value="saab">Saab</option>
-        <option value="fiat">Fiat</option>
-        <option value="audi">Audi</option>
-      </select>
-    </div>
+  <a
+    class="nav-link"
+    routerLinkActive="active"
+    [routerLink]="['cf-evolution']"
+    style="color: white"
+  >
+    Evolution</a
+  >
+  <a
+    class="nav-link"
+    routerLinkActive="active"
+    [routerLink]="['kg-comparison']"
+    style="color: white"
+  >
+    Comparison</a
+  >
+  <a
+    class="nav-link"
+    routerLinkActive="active"
+    [routerLink]="['CO2-calculator']"
+    style="color: white"
+  >
+    Household Calculator</a
+  >
 
-    <div class="input-div">
-      <label for="address"> Electricity </label>
-      <input
-        type="text"
-        id="electricity-value"
-        formControlName="electricityValue"
-      />
+  <a
+    class="nav-link"
+    routerLinkActive="active"
+    [routerLink]="['CO2-calculator-appliances']"
+    style="color: white"
+  >
+    Appliances Calculator</a
+  >
+</nav>
+<!-- <app-data-validation></app-data-validation>
 
-      <label for="cars">Choose a car:</label>
-      <select id="electricity-uom" formControlName="electricityUom">
-        <option value="mmbtu">mmbtu</option>
-        <option value="saab">Saab</option>
-        <option value="fiat">Fiat</option>
-        <option value="audi">Audi</option>
-      </select>
-    </div>
+<app-evolution-chart></app-evolution-chart>
 
-    <div class="input-div">
-      <label for="address"> Fuel Oil </label>
-      <input type="text" id="fuel-oil-value" formControlName="fuelOilValue" />
+<app-knowledge-comparison></app-knowledge-comparison>
 
-      <label for="cars">Choose a car:</label>
-      <select id="fuel-oil-uom" formControlName="fuelOilUom">
-        <option value="mmbtu">mmbtu</option>
-        <option value="saab">Saab</option>
-        <option value="fiat">Fiat</option>
-        <option value="audi">Audi</option>
-      </select>
-    </div>
+<app-co2-calculator-fixed></app-co2-calculator-fixed>
 
-    <div class="input-div">
-      <label for="address">Propane</label>
-      <input type="text" id="propane-value" formControlName="propaneValue" />
-      <label for="cars">choose unit of measurement</label>
-      <select id="propane-uom" formControlName="propaneUom">
-        <option value="mmbtu">mmbtu</option>
-      </select>
-    </div>
+<app-co2-calculator-appliances></app-co2-calculator-appliances> -->
 
-    <button class="button" type="submit">Purchase</button>
-  </form>
-  <div>{{ formResult }}</div>
-  <div *ngFor="let warning of warnings">{{ warning }}</div>
-</div>
-
-<div class="flex-calculator">
-  <form class="example-form" (ngSubmit)="flexCalcSubmit($event)">
-    <div
-      class="input-row"
-      *ngFor="let cfs of cfsArray.controls; index as index; last as isLast"
-    >
-      <mat-form-field class="example-full-width" appearance="fill">
-        <mat-label>Appliances</mat-label>
-        <input
-          type="text"
-          placeholder="Pick one"
-          aria-label="Appliance"
-          matInput
-          [formControl]="cfs"
-          [matAutocomplete]="auto"
-          [name]="'appliance' + index.toString()"
-        />
-        <mat-autocomplete #auto="matAutocomplete">
-          <mat-option
-            (selectionChange)="changeClient($event)"
-            *ngFor="let option of filteredOptions | async"
-            [value]="option"
-          >
-            {{ option }}
-          </mat-option>
-        </mat-autocomplete>
-      </mat-form-field>
-      <input
-        type="text"
-        placeholder="Daily use (hours)"
-        aria-label="Number"
-        matInput
-        [name]="'hours' + index.toString()"
-      />
-      <input
-        type="text"
-        placeholder="Yearly use (days)"
-        aria-label="Number"
-        matInput
-        [name]="'days' + index.toString()"
-      />
-      <input
-        type="text"
-        placeholder="Power Rating (watss/MJ)"
-        aria-label="Number"
-        matInput
-        [name]="'powerrating' + index.toString()"
-      />
-      <button
-        mat-icon-button
-        color="primary"
-        *ngIf="isLast"
-        (click)="addInputControl()"
-      >
-        <mat-icon>add_circle</mat-icon>
-      </button>
-    </div>
-    <button class="button" type="submit">Calculate</button>
-  </form>
-  <div>Result = {{ flexCalculatorValue }} kg CO2</div>
-  <div *ngFor="let cfs of flexCalculatorArray">
-    Conversion factor used for appliance '{{ cfs.appliance }}' is '{{
-      cfs.cfName
-    }}' with applicable year '{{ cfs.cfDate }}' and publisher '{{
-      cfs.cfOrigin
-    }}'
-  </div>
-</div>
+<router-outlet></router-outlet>

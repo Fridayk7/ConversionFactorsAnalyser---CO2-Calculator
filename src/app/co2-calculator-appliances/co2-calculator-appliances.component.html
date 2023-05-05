@@ -1,0 +1,68 @@
+<div class="flex-calculator">
+  <form class="example-form" (ngSubmit)="flexCalcSubmit($event)">
+    <div
+      class="input-row"
+      *ngFor="let cfs of cfsArray.controls; index as index; last as isLast"
+    >
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Appliances</mat-label>
+        <input
+          type="text"
+          placeholder="Pick one"
+          aria-label="Appliance"
+          matInput
+          [formControl]="cfs"
+          [matAutocomplete]="auto"
+          [name]="'appliance' + index.toString()"
+        />
+        <mat-autocomplete #auto="matAutocomplete">
+          <mat-option
+            (selectionChange)="changeClient($event)"
+            *ngFor="let option of filteredOptions | async"
+            [value]="option"
+          >
+            {{ option }}
+          </mat-option>
+        </mat-autocomplete>
+      </mat-form-field>
+      <input
+        type="text"
+        placeholder="Daily use (hours)"
+        aria-label="Number"
+        matInput
+        [name]="'hours' + index.toString()"
+      />
+      <input
+        type="text"
+        placeholder="Yearly use (days)"
+        aria-label="Number"
+        matInput
+        [name]="'days' + index.toString()"
+      />
+      <input
+        type="text"
+        placeholder="Power Rating (watss/MJ)"
+        aria-label="Number"
+        matInput
+        [name]="'powerrating' + index.toString()"
+      />
+      <button
+        mat-icon-button
+        color="primary"
+        *ngIf="isLast"
+        (click)="addInputControl()"
+      >
+        <mat-icon>add_circle</mat-icon>
+      </button>
+    </div>
+    <button class="button" type="submit">Calculate</button>
+  </form>
+  <div>Result = {{ flexCalculatorValue }} kg CO2</div>
+  <div *ngFor="let cfs of flexCalculatorArray">
+    Conversion factor used for appliance '{{ cfs.appliance }}' is '{{
+      cfs.cfName
+    }}' with applicable year '{{ cfs.cfDate }}' and publisher '{{
+      cfs.cfOrigin
+    }}'
+  </div>
+</div>
