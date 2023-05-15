@@ -1,3 +1,41 @@
+<div class="overlay" id="overlay">
+  <mat-spinner></mat-spinner>
+  Calculating Similarities...
+</div>
+<div class="top-wrapper">
+  <form [formGroup]="knowledgeGraphs" class="year-form" (ngSubmit)="onSubmit()">
+    <div class="input-div">
+      <label for="kg1"> EPA YEAR </label>
+      <select id="kg1" formControlName="kg1">
+        <option value="2014">2014</option>
+        <option value="2015">2015</option>
+        <option value="2018">2018</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+      </select>
+    </div>
+    <div class="input-div">
+      <label for="kg2"> BEIS YEAR </label>
+      <select id="kg2" formControlName="kg2">
+        <option value="2016">2016</option>
+        <option value="2017">2017</option>
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+      </select>
+    </div>
+    <button class="button" type="submit">Compare</button>
+  </form>
+  <mat-icon
+    class="matTooltip"
+    #tooltip="matTooltip"
+    matTooltip="Similarity is calculated by calculating the average similarity score between the names, source and target units and tags between two conversion factors. The faided green color indicates that the conversion factors are similar but have different source units (which were excluded from the similarity calculation) and the brighter green indicates that they have been identified as identical"
+    [matTooltipPosition]="position.value!"
+    matTooltipHideDelay="100"
+    >info</mat-icon
+  >
+</div>
 <ag-grid-angular
   style="width: 100%; height: 500px"
   class="ag-theme-alpine"

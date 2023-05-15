@@ -3,12 +3,13 @@
     {{
       params.value && params.value.similarity
         ? (params.value.similarity * 100 | number : "1.2-2") + "%"
-        : ""
+        : "-"
     }}
     <section class="example-section">
       <mat-progress-bar
-        class="example-margin"
-        [color]="params.value && params.value.excludeSU ? 'blue' : 'orange'"
+        [class]="
+          params.value && params.value.excludeSU ? 'similar' : 'identical'
+        "
         [mode]="mode"
         [value]="
           params.value && params.value.similarity

@@ -25,7 +25,14 @@ describe('DataService', () => {
   });
 
   it('should return a list of conversion factors', (done: DoneFn) => {
-    service.getConversionFactors().subscribe((value) => {
+    service.getAllCFs('EPA_FUEL_FULL').subscribe((value) => {
+      expect(value.length).toBeGreaterThan(0);
+      done();
+    });
+  });
+
+  it('should return a list of conversion factors', (done: DoneFn) => {
+    service.getAllCFs('BEIS').subscribe((value) => {
       expect(value.length).toBeGreaterThan(0);
       done();
     });

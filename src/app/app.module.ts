@@ -25,6 +25,7 @@ import { RouterModule } from '@angular/router';
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { MatTooltipModule } from '@angular/material/tooltip';
 
 @NgModule({
   declarations: [
@@ -50,6 +51,7 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
       // { path: '**', component: NotFoundComponent }
     ]),
+    MatTooltipModule,
     NgxSpinnerModule,
     ScrollingModule,
     MatCardModule,

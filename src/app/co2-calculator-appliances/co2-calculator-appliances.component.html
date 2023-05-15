@@ -41,7 +41,7 @@
       />
       <input
         type="text"
-        placeholder="Power Rating (watss/MJ)"
+        placeholder="Power Rating (watts/MJ)"
         aria-label="Number"
         matInput
         [name]="'powerrating' + index.toString()"
@@ -57,12 +57,18 @@
     </div>
     <button class="button" type="submit">Calculate</button>
   </form>
-  <div>Result = {{ flexCalculatorValue }} kg CO2</div>
-  <div *ngFor="let cfs of flexCalculatorArray">
-    Conversion factor used for appliance '{{ cfs.appliance }}' is '{{
-      cfs.cfName
-    }}' with applicable year '{{ cfs.cfDate }}' and publisher '{{
-      cfs.cfOrigin
-    }}'
+  <div *ngIf="flexCalculatorValue" class="results">
+    <h3>Results</h3>
+    <h4>Emmisions</h4>
+    <div>{{ flexCalculatorValue | number : "1.2-2" }} kg CO2</div>
+    <h4>Conversion Factors Used:</h4>
+    <div *ngFor="let cfs of flexCalculatorArray">
+      Conversion factor used for appliance '{{ cfs.appliance }}' is '{{
+        cfs.cfName
+      }}' with value '{{ cfs.cfValue }} kg CO2' and applicable year '{{
+        cfs.cfDate
+      }}' published by'{{ cfs.cfOrigin }}'
+    </div>
+    <!-- {{ results }} -->
   </div>
 </div>

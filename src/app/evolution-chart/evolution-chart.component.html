@@ -1,4 +1,26 @@
+<div class="overlay" id="overlay">
+  <mat-spinner></mat-spinner>
+  Calculating Evolutions...
+</div>
+Publishers
+<div class="categories2">
+  <div
+    *ngFor="let item of repos | keyvalue"
+    [id]="item.key"
+    class="category"
+    (click)="changePublisher($event)"
+    [style]="
+      item.key === 'EPA_FUEL_FULL'
+        ? 'background-color: #8787f4; color:white'
+        : ''
+    "
+  >
+    {{ item.value }}
+  </div>
+</div>
+
 <div class="cf-evolution-wrapper">
+  Categories
   <div class="categories">
     <div
       *ngFor="let item of cf_groups | keyvalue"
@@ -15,7 +37,13 @@
     <fieldset class="cf-selection">
       <legend>Conversion factors: (Name - Source Unit - Target Unit)</legend>
 
-      <cdk-virtual-scroll-viewport appendOnly itemSize="100" class="viewport">
+      <cdk-virtual-scroll-viewport
+        appendOnly
+        minBufferPx="1000"
+        maxBufferPx="1000000"
+        itemSize="50"
+        class="viewport"
+      >
         <div *cdkVirtualFor="let cf of allCF" class="viewport-item">
           <input
             (change)="selectCF($event)"
@@ -31,9 +59,9 @@
           <label for="{{ cf.conversionFactors.value }}"
             >{{ cf.sourceUnitNames.value }}-</label
           >
-          <label for="{{ cf.conversionFactors.value }}"
-            >{{ cf.targetUnitNames.value }}-</label
-          >
+          <label for="{{ cf.conversionFactors.value }}">{{
+            cf.targetUnitNames.value
+          }}</label>
         </div>
       </cdk-virtual-scroll-viewport>
     </fieldset>

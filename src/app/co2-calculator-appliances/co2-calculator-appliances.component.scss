@@ -1,0 +1,40 @@
+:host {
+  margin: 16px;
+}
+
+.input-row {
+  display: flex;
+  align-items: center;
+  grid-gap: 16px;
+}
+.results {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  grid-gap: 16px;
+  background-color: #8787f4;
+  border-radius: 16px;
+  padding: 16px;
+  width: fit-content;
+  color: white;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+input {
+  height: 25px;
+  border-radius: 8px;
+  border: 1px solid #8787f4;
+}
+button {
+  background: #8787f4;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  width: 80px;
+  cursor: pointer;
+  height: 40px;
+}

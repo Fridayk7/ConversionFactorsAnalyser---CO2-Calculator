@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ThemePalette } from '@angular/material/core';
 import { ProgressBarMode } from '@angular/material/progress-bar';
 import { ICellRendererAngularComp } from 'ag-grid-angular';
 import { ICellRendererParams } from 'ag-grid-community';
@@ -9,6 +10,8 @@ import { ICellRendererParams } from 'ag-grid-community';
   styleUrls: ['./progress-bar-renderer.component.scss'],
 })
 export class ProgressBarRendererComponent implements ICellRendererAngularComp {
+  color: ThemePalette = 'primary';
+
   public cellValue;
   public params;
   mode: ProgressBarMode = 'determinate';

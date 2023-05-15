@@ -1,3 +1,6 @@
+:host {
+  margin: 16px;
+}
 .example-h2 {
   margin: 10px;
 }
@@ -19,4 +22,49 @@
 
 .compare-row {
   display: flex;
+}
+.mat-mdc-progress-spinner {
+  --mdc-circular-progress-active-indicator-color: #8787f4;
+}
+
+.overlay {
+  z-index: 999999999999999999;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: white;
+  opacity: 1;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.year-form {
+  display: flex;
+  grid-gap: 16px;
+  align-items: center;
+}
+::ng-deep .mat-mdc-card {
+  box-shadow: none;
+}
+.top-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px 16px 0;
+}
+
+.matTooltip {
+  color: #8787f4;
+  transform: scale(1.4);
+}
+
+button {
+  background: #8787f4;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  height: 23px;
+  cursor: pointer;
 }

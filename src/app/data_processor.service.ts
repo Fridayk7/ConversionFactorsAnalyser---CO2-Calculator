@@ -80,6 +80,7 @@ export class DataProccessorService {
     return appliances;
   }
 
+  // Finds increases in value in in an array of numbers
   findSingleFluctuations(data: any) {
     return Object.keys(data)
       .filter((key) => this.checkIncrease(data[key]))
@@ -87,6 +88,7 @@ export class DataProccessorService {
         return Object.assign(cur, { [key]: data[key] });
       }, {});
   }
+  // Finds increases in value in in an object of arrays of numbers
   findFluctuations(data: any) {
     let flux = {};
 
@@ -102,6 +104,7 @@ export class DataProccessorService {
     return flux;
   }
 
+  // Transforms validation check results into ag-grid format
   transformQualityChecks(
     missingValues: any,
     missingTags: any,
@@ -286,39 +289,15 @@ export class DataProccessorService {
       return total;
     }, {});
   };
+
+  // Transforms input into a 'knowledge-graph' like structure
+  transformCFtoKGstructure(name, source, target, value, tags?) {
+    return {
+      lookUpNames: { type: 'literal', value: name },
+      sourceUnitNames: { type: 'literal', value: source },
+      tagNames: { type: 'literal', value: tags ? tags : '' },
+      targetUnitNames: { type: 'literal', value: target },
+      values: { type: 'literal', value: value },
+    };
+  }
 }
-
-// var similarity = stringSimilarity.compareTwoStrings(
-//   'Coal (industrial)',
-//   'Coal'
-// );
-
-// return similarity;
-
-// compareDataSetsJaccard(data1: any, data2: any) {
-//   let jaccard = require('jaccard-similarity-sentences');
-//   let intersection = [];
-//   let threshhold = 0.3;
-//   var similarity = jaccard.jaccardSimilarity('kg CO2', 'kg CO2e');
-//   console.log(similarity);
-
-//   for (let i of data1) {
-//     for (let j of data2) {
-//       if (
-//         jaccard.jaccardSimilarity(i.lookUpNames.value, j.lookUpNames.value) >
-//           0.4 &&
-//         jaccard.jaccardSimilarity(
-//           i.sourceUnitNames.value,
-//           j.sourceUnitNames.value
-//         ) > 0.3 &&
-//         jaccard.jaccardSimilarity(
-//           i.targetUnitNames.value,
-//           j.targetUnitNames.value
-//         ) >= 0.9
-//       ) {
-//         intersection.push([i, j]);
-//       }
-//     }
-//   }
-//   return intersection;
-// }

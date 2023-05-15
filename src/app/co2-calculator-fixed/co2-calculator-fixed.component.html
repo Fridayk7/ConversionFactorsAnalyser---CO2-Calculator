@@ -1,3 +1,7 @@
+<div class="overlay" id="overlay">
+  <mat-spinner></mat-spinner>
+  Calculating Carbon Emissions...
+</div>
 <div class="calculator">
   <h3>Carbon Emiisions Calculator</h3>
 
@@ -7,14 +11,25 @@
     (ngSubmit)="onSubmit()"
   >
     <div class="input-div">
+      <label for="uom">Choose a Country:</label>
+      <select id="country" formControlName="country" required>
+        <option value="BEIS">UK</option>
+        <option value="EPA_FUEL_FULL">USA</option>
+      </select>
+    </div>
+    <div class="input-div">
       <label for="name"> Natural Gas </label>
       <input
         type="text"
         id="natural-gas-value"
         formControlName="naturalGasValue"
       />
-      <label for="cars">Choose a car:</label>
+      <label for="uom">Choose a Unit of Measurement:</label>
       <select id="natural-gas-uom" formControlName="naturalGasUom">
+        <option value="kWh (Gross CV)">kWh (Gross CV)</option>
+        <option value="kWh (Net CV)">kWh (Net CV)</option>
+        <option value="cubic metres">cubic metres</option>
+        <option value="tonnes">tonnes</option>
         <option value="mmbtu">mmbtu</option>
         <option value="scf">scf</option>
       </select>
@@ -28,10 +43,9 @@
         formControlName="electricityValue"
       />
 
-      <label for="cars">Choose a car:</label>
+      <label for="uom">Choose a Unit of Measurement:</label>
       <select id="electricity-uom" formControlName="electricityUom">
-        <option value="mmbtu">mmbtu</option>
-        <option value="scf">scf</option>
+        <option value="kWh">kWh</option>
       </select>
     </div>
 
@@ -39,25 +53,49 @@
       <label for="address"> Fuel Oil </label>
       <input type="text" id="fuel-oil-value" formControlName="fuelOilValue" />
 
-      <label for="cars">Choose a car:</label>
+      <label for="uom">Choose a Unit of Measurement:</label>
       <select id="fuel-oil-uom" formControlName="fuelOilUom">
-        <option value="mmbtu">mmbtu</option>
-        <option value="gallon">gallon</option>
+        <option value="kWh (Gross CV)">kWh (Gross CV)</option>
+        <option value="kWh (Net CV)">kWh (Net CV)</option>
+        <option value="litres">cubic meters</option>
+        <option value="tonnes">tonnes</option>
       </select>
     </div>
 
     <div class="input-div">
       <label for="address">Propane</label>
       <input type="text" id="propane-value" formControlName="propaneValue" />
-      <label for="cars">choose unit of measurement</label>
+      <label for="uom">choose Unit of Measurement</label>
       <select id="propane-uom" formControlName="propaneUom">
-        <option value="mmbtu">mmbtu</option>
-        <option value="gallon">gallon</option>
+        <option value="kWh (Gross CV)">kWh (Gross CV)</option>
+        <option value="kWh (Net CV)">kWh (Net CV)</option>
+        <option value="litres">litres</option>
+        <option value="tonnes">tonnes</option>
       </select>
     </div>
 
-    <button class="button" type="submit">Purchase</button>
+    <button class="button" type="submit">Calculate</button>
   </form>
-  <div>{{ formResult }}</div>
-  <div *ngFor="let warning of warnings">{{ warning }}</div>
+  <div *ngIf="total || warnings.length || errors.length" class="results">
+    <h3>Results</h3>
+    <div class="results-section">
+      <h4>{{ total ? "Emmisions" : "" }}</h4>
+      <div>{{ total | number : "1.2-2" }} kg CO2</div>
+    </div>
+    <div class="results-section">
+      <h4>
+        {{ conversionFactorsUsed.length ? "Conversion Factors Used:" : "" }}
+      </h4>
+      <div *ngFor="let cf of conversionFactorsUsed">{{ cf }}</div>
+    </div>
+    <div class="results-section warnings">
+      <h4>{{ warnings.length ? "Warings" : "" }}</h4>
+      <div *ngFor="let warning of warnings">{{ warning }}</div>
+    </div>
+    <div class="results-section errors">
+      <h4>{{ errors.length ? "Errors" : "" }}</h4>
+      <div *ngFor="let error of errors">{{ error }}</div>
+    </div>
+    <!-- {{ results }} -->
+  </div>
 </div>

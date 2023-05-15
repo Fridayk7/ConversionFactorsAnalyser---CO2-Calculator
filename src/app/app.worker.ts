@@ -1,19 +1,24 @@
 /// <reference lib="webworker" />
 
+// Knowledge graph comparison algorithm
 function compareDataSets(data1: any, data2: any) {
+  // Initialize similarity algorithms
   var stringSimilarity = require('string-similarity');
   let cosineSimilarity = (str1, str2) => {
     return cosdis(word2vec(str1), word2vec(str2));
   };
-  console.log(
-    cosineSimilarity('Distillate Fuel Oil No. 4', 'Residual Fuel Oil No. 4'),
-    stringSimilarity.compareTwoStrings('Natural gas', 'Natural Gas')
-  );
+
   let similarCFs = [];
   let counter = 0;
-
-  let compareTags = (tags1, tags2, method) => {
-    let similarityarray = [];
+  // Function that compares the tags of conversion factors and produses the aberage score
+  // Returns an array [is it similar/identical, similarity value, is it identical]
+  let compareTags = (name1, name2, tags1, tags2, method) => {
+    if (
+      (tags1.length === 1 && tags1[0] === '') ||
+      (tags2.length === 1 && tags2[0] == '')
+    ) {
+      return [true, 1, true];
+    }
     for (let i = 0; i < tags1.length; i++) {
       for (let j = 0; j < tags2.length; j++) {
         if (method === 'dice' && tags1[i] != 'Fuels' && tags2[j] != 'Fuels') {
@@ -21,20 +26,33 @@ function compareDataSets(data1: any, data2: any) {
             tags1[i],
             tags2[j]
           );
+          let similarity2 = stringSimilarity.compareTwoStrings(name1, tags2[j]);
+          let similarity3 = stringSimilarity.compareTwoStrings(tags1[i], name2);
 
-          if (similarity >= 0.7) {
-            return [true, similarity];
+          if (similarity >= 0.5) {
+            // If tags are not similar, consider the names as well
+            return [true, similarity, true];
+          } else if (similarity2 >= 0.5) {
+            return [true, similarity2, false];
+          } else if (similarity3 >= 0.5) {
+            return [true, similarity3, false];
           }
         }
         if (method === 'cosine' && tags1[i] != 'Fuels' && tags2[j] != 'Fuels') {
           let similarity = cosineSimilarity(tags1[i], tags2[j]);
+          let similarity2 = cosineSimilarity(name1, tags2[j]);
+          let similarity3 = cosineSimilarity(tags1[i], name2);
           if (similarity >= 0.7) {
-            return [true, similarity];
+            return [true, similarity, true];
+          } else if (similarity2 >= 0.7) {
+            return [true, similarity2, false];
+          } else if (similarity3 >= 0.7) {
+            return [true, similarity3, false];
           }
         }
         if (method === 'naive' && tags1[i] != 'Fuels' && tags2[j] != 'Fuels') {
           if (tags1[i].toLowerCase() === tags2[j].toLowerCase()) {
-            return [true, 0];
+            return [true, 0, true];
           }
         }
       }
@@ -47,42 +65,69 @@ function compareDataSets(data1: any, data2: any) {
       counter += 1;
       let tempSimilarCFs = {
         cf1: '',
+        cf1su: '',
+        cf1tu: '',
+        cf1excludeSU: false,
+        cf2name: j.lookUpNames.value,
         cf2: '',
+        cf2su: '',
+        cf2tu: '',
+        cf1date: '',
+        cf1value: '',
+        cf1similarityValue: 0,
         dice: {},
         cosine: {},
         naive: {},
+        tagsConsidered: true,
       };
       tempSimilarCFs.dice['title'] = 'Dice Similarity';
       tempSimilarCFs.cosine['title'] = 'Cosine Similarity';
       tempSimilarCFs.naive['title'] = 'Naive String Comparisson';
 
+      // Compare Names
+
       let diceNameCompare = stringSimilarity.compareTwoStrings(
         i.lookUpNames.value,
         j.lookUpNames.value
       );
+
+      // Compare target units
       let diceTargetUnitCompare = stringSimilarity.compareTwoStrings(
         i.targetUnitNames.value,
         j.targetUnitNames.value
       );
+      // Compare source units
 
       let diceSourceUnitCompare = stringSimilarity.compareTwoStrings(
         i.sourceUnitNames.value,
         j.sourceUnitNames.value
       );
+      // Compare tags units
 
       let diceTagsCompare = compareTags(
+        i.lookUpNames.value,
+        j.lookUpNames.value,
         i.tagNames.value.split(','),
         j.tagNames.value.split(','),
         'dice'
       );
+      // Check threshold
+
       if (
         diceNameCompare >= 0.7 &&
         diceTargetUnitCompare >= 0.9 &&
         diceTagsCompare[0]
       ) {
         tempSimilarCFs.cf1 = i.lookUpNames.value;
+        tempSimilarCFs.cf1su = i.sourceUnitNames.value;
+        tempSimilarCFs.cf1tu = i.targetUnitNames.value;
+        tempSimilarCFs.cf1date = i.endDate.value;
+        tempSimilarCFs.cf1value = i.values.value;
         tempSimilarCFs.cf2 = j.lookUpNames.value;
-
+        tempSimilarCFs.cf2su = j.sourceUnitNames.value;
+        tempSimilarCFs.cf2tu = j.targetUnitNames.value;
+        tempSimilarCFs.tagsConsidered = diceTagsCompare[2];
+        // Check is source unit is classified as identical
         if (diceSourceUnitCompare > 0.9) {
           tempSimilarCFs.dice['cf1'] = {
             name: i.lookUpNames.value,
@@ -96,12 +141,21 @@ function compareDataSets(data1: any, data2: any) {
             targetUnit: j.targetUnitNames.value,
             publisher: 'BEIS',
           };
+          // Flag conversion factor as identical
+
           tempSimilarCFs.dice['similarity'] =
             (diceNameCompare +
               diceTargetUnitCompare +
               diceSourceUnitCompare +
               diceTagsCompare[1]) /
             4;
+          if (
+            tempSimilarCFs.cf1similarityValue <
+            tempSimilarCFs.dice['similarity']
+          ) {
+            tempSimilarCFs.cf1similarityValue =
+              tempSimilarCFs.dice['similarity'];
+          }
           tempSimilarCFs.dice['excludeSU'] = false;
         } else {
           tempSimilarCFs.dice['cf1'] = {
@@ -116,9 +170,11 @@ function compareDataSets(data1: any, data2: any) {
             targetUnit: j.targetUnitNames.value,
             publisher: 'BEIS',
           };
+          // Flag conversion factor as similar
           tempSimilarCFs.dice['similarity'] =
             (diceNameCompare + diceTargetUnitCompare + diceTagsCompare[1]) / 3;
           tempSimilarCFs.dice['excludeSU'] = true;
+          tempSimilarCFs.cf1excludeSU = true;
         }
       }
 
@@ -137,6 +193,8 @@ function compareDataSets(data1: any, data2: any) {
       );
 
       let cosineTagsCompare: any = compareTags(
+        i.lookUpNames.value,
+        j.lookUpNames.value,
         i.tagNames.value.split(','),
         j.tagNames.value.split(','),
         'cosine'
@@ -148,7 +206,15 @@ function compareDataSets(data1: any, data2: any) {
         cosineTagsCompare[0]
       ) {
         tempSimilarCFs.cf1 = i.lookUpNames.value;
+        tempSimilarCFs.cf1su = i.sourceUnitNames.value;
+        tempSimilarCFs.cf1tu = i.targetUnitNames.value;
         tempSimilarCFs.cf2 = j.lookUpNames.value;
+        tempSimilarCFs.cf2su = j.sourceUnitNames.value;
+        tempSimilarCFs.cf2tu = j.targetUnitNames.value;
+        tempSimilarCFs.cf1date = i.endDate.value;
+        tempSimilarCFs.cf1value = i.values.value;
+        tempSimilarCFs.tagsConsidered = cosineTagsCompare[2];
+
         if (cosineSourceUnitCompare >= 0.9) {
           tempSimilarCFs.cosine['cf1'] = {
             name: i.lookUpNames.value,
@@ -168,6 +234,13 @@ function compareDataSets(data1: any, data2: any) {
               cosineSourceUnitCompare +
               cosineTagsCompare[1]) /
             4;
+          if (
+            tempSimilarCFs.cf1similarityValue <
+            tempSimilarCFs.cosine['similarity']
+          ) {
+            tempSimilarCFs.cf1similarityValue =
+              tempSimilarCFs.cosine['similarity'];
+          }
           tempSimilarCFs.cosine['excludeSU'] = false;
         } else {
           tempSimilarCFs.cosine['cf1'] = {
@@ -188,10 +261,13 @@ function compareDataSets(data1: any, data2: any) {
               cosineTagsCompare[1]) /
             3;
           tempSimilarCFs.cosine['excludeSU'] = true;
+          tempSimilarCFs.cf1excludeSU = true;
         }
       }
 
       let naiveTagsCompare = compareTags(
+        i.lookUpNames.value,
+        j.lookUpNames.value,
         i.tagNames.value.split(','),
         j.tagNames.value.split(','),
         'naive'
@@ -204,7 +280,15 @@ function compareDataSets(data1: any, data2: any) {
         naiveTagsCompare[0]
       ) {
         tempSimilarCFs.cf1 = i.lookUpNames.value;
+        tempSimilarCFs.cf1su = i.sourceUnitNames.value;
+        tempSimilarCFs.cf1tu = i.targetUnitNames.value;
         tempSimilarCFs.cf2 = j.lookUpNames.value;
+        tempSimilarCFs.cf2su = j.sourceUnitNames.value;
+        tempSimilarCFs.cf2tu = j.targetUnitNames.value;
+        tempSimilarCFs.cf1date = i.endDate.value;
+        tempSimilarCFs.cf1value = i.values.value;
+        tempSimilarCFs.tagsConsidered = naiveTagsCompare[2];
+
         if (
           i.sourceUnitNames.value.toLowerCase() ===
           j.sourceUnitNames.value.toLowerCase()
@@ -223,6 +307,7 @@ function compareDataSets(data1: any, data2: any) {
           };
           tempSimilarCFs.naive['similarity'] = 1;
           tempSimilarCFs.naive['excludeSU'] = false;
+          tempSimilarCFs.cf1similarityValue = 1;
         } else {
           tempSimilarCFs.naive['cf1'] = {
             name: i.lookUpNames.value,
@@ -237,7 +322,15 @@ function compareDataSets(data1: any, data2: any) {
             publisher: 'BEIS',
           };
           tempSimilarCFs.naive['similarity'] = 1;
+          if (
+            tempSimilarCFs.cf1similarityValue <
+            tempSimilarCFs.naive['similarity']
+          ) {
+            tempSimilarCFs.cf1similarityValue =
+              tempSimilarCFs.naive['similarity'];
+          }
           tempSimilarCFs.naive['excludeSU'] = true;
+          tempSimilarCFs.cf1excludeSU = true;
         }
       }
       if (
@@ -249,7 +342,6 @@ function compareDataSets(data1: any, data2: any) {
       }
     }
   }
-  console.log('DONE');
   return similarCFs;
 }
 
@@ -304,6 +396,9 @@ function groupSimilar(data: any) {
   return data.reduce(function (storage: any, item: any) {
     // get the first instance of the key by which we're grouping
     var group = `${item.lookUpNames.value}+${item.sourceUnitNames.value}+${item.targetUnitNames.value}`;
+    if (item.comments) {
+      group += `+${item.comments.value}`;
+    }
 
     // set `storage` for this instance of group to the outer scope (if not empty) or initialize it
     storage[group] = storage[group] || [];
@@ -317,6 +412,7 @@ function groupSimilar(data: any) {
 }
 
 addEventListener('message', ({ data }) => {
+  // Handle web worker requests from different components and call the correct functions
   console.log(data);
   if (data.length === 2) {
     console.log('IN1');
@@ -333,13 +429,22 @@ addEventListener('message', ({ data }) => {
     const response = { results: sortByName(data[0]) };
     postMessage(response);
   }
+  if (data.length === 4) {
+    console.log('IN4');
+    const response = { results: groupSimilar(data[0]) };
+    postMessage(response);
+  }
 });
+
+// Count char occurences in a string
 function counter(str) {
   return str.split('').reduce((total, letter) => {
     total[letter] ? total[letter]++ : (total[letter] = 1);
     return total;
   }, {});
 }
+
+// Transform strings to vectors
 function word2vec(word) {
   let charFreq = counter(word);
 
@@ -354,6 +459,7 @@ function word2vec(word) {
   return [charFreq, charSet, lengthw];
 }
 
+// Cosine similarity
 function cosdis(v1, v2) {
   let commonLetters = new Set([...v1[1]].filter((x) => v2[1].has(x)));
 

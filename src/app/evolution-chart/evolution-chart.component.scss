@@ -1,3 +1,7 @@
+:host {
+  margin: 16px;
+}
+
 .cf-evolution-wrapper {
   display: flex;
   flex-direction: column;
@@ -12,24 +16,49 @@
   }
 }
 
+.mat-mdc-progress-spinner {
+  --mdc-circular-progress-active-indicator-color: #8787f4;
+}
+
+.overlay {
+  z-index: 999999999999999999;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: white;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 .viewport {
   height: 600px;
+  min-height: 600px;
   width: 100%;
 }
 
-viewport-item {
-  height: 16px;
+.viewport-item {
+  height: 25px;
 }
 
 .categories {
   display: flex;
   flex-wrap: wrap;
-  height: 200px;
+  max-height: 265px;
   overflow-y: scroll;
   grid-gap: 16px;
   margin-top: 16px;
 }
 
+.categories2 {
+  display: flex;
+  flex-wrap: wrap;
+  height: 90px;
+  overflow-y: scroll;
+  grid-gap: 16px;
+  margin-top: 16px;
+}
 .category {
   border-radius: 16px;
   border: 1px solid #8787f4;
