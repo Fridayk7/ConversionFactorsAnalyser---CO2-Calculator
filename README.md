@@ -16,7 +16,7 @@ semantic web technologies. This is achieved through a series of tools that enabl
 3. Comparing data of conversion factors from different publishers.
 4. Calculating the carbon emissions of a household.
 5. Calculating the carbon emissions of household appliances.
-   All related files are stored in a GItHub repository which can be accessed by the following
+   All related files are stored in a GItHub repository which can be accessed via the following
    link: https://github.com/Fridayk7/ConversionFactorsAnalyser—CO2-Calculator
    For the implementation of this system, the Angular framework is selected. The system is
    separated into individual modules called ‘angular components’. Each component is self suffi-
