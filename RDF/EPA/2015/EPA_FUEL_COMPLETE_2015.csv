@@ -1,0 +1,456 @@
+id,Level 1,Level 2,Fuel Type,UOM (simple),UOM,GHG,Lookup,GHG Conversion Factor 2015,valid_from,valid_to
+2015_1,Fuels,Solid,Coal,short ton,short ton,mmbtu,Anthracite Coal,25.09,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_2,Fuels,Solid,Coal,mmbtu,mmbtu,kg CO2,Anthracite Coal,103.69,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_3,Fuels,Solid,Coal,mmbtu,mmbtu,g CH4,Anthracite Coal,11,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_4,Fuels,Solid,Coal,mmbtu,mmbtu,g N2O,Anthracite Coal,1.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_5,Fuels,Solid,Coal,short ton,short ton,kg CO2,Anthracite Coal,2602,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_6,Fuels,Solid,Coal,short ton,short ton,g CH4,Anthracite Coal,276,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_7,Fuels,Solid,Coal,short ton,short ton,g N2O,Anthracite Coal,40,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_8,Fuels,Solid,Coal,short ton,short ton,mmbtu,Bituminous Coal,24.93,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_9,Fuels,Solid,Coal,mmbtu,mmbtu,kg CO2,Bituminous Coal,93.28,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_10,Fuels,Solid,Coal,mmbtu,mmbtu,g CH4,Bituminous Coal,11,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_11,Fuels,Solid,Coal,mmbtu,mmbtu,g N2O,Bituminous Coal,1.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_12,Fuels,Solid,Coal,short ton,short ton,kg CO2,Bituminous Coal,2325,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_13,Fuels,Solid,Coal,short ton,short ton,g CH4,Bituminous Coal,274,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_14,Fuels,Solid,Coal,short ton,short ton,g N2O,Bituminous Coal,40,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_15,Fuels,Solid,Coal,short ton,short ton,mmbtu,Sub-bituminous Coal,17.25,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_16,Fuels,Solid,Coal,mmbtu,mmbtu,kg CO2,Sub-bituminous Coal,97.17,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_17,Fuels,Solid,Coal,mmbtu,mmbtu,g CH4,Sub-bituminous Coal,11,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_18,Fuels,Solid,Coal,mmbtu,mmbtu,g N2O,Sub-bituminous Coal,1.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_19,Fuels,Solid,Coal,short ton,short ton,kg CO2,Sub-bituminous Coal,1676,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_20,Fuels,Solid,Coal,short ton,short ton,g CH4,Sub-bituminous Coal,190,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_21,Fuels,Solid,Coal,short ton,short ton,g N2O,Sub-bituminous Coal,28,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_22,Fuels,Solid,Coal,short ton,short ton,mmbtu,Lignite Coal,14.21,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_23,Fuels,Solid,Coal,mmbtu,mmbtu,kg CO2,Lignite Coal,97.72,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_24,Fuels,Solid,Coal,mmbtu,mmbtu,g CH4,Lignite Coal,11,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_25,Fuels,Solid,Coal,mmbtu,mmbtu,g N2O,Lignite Coal,1.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_26,Fuels,Solid,Coal,short ton,short ton,kg CO2,Lignite Coal,1389,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_27,Fuels,Solid,Coal,short ton,short ton,g CH4,Lignite Coal,156,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_28,Fuels,Solid,Coal,short ton,short ton,g N2O,Lignite Coal,23,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_29,Fuels,Solid,Coal & Coke,short ton,short ton,mmbtu,Mixed (Commercial Sector),21.39,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_30,Fuels,Solid,Coal & Coke,mmbtu,mmbtu,kg CO2,Mixed (Commercial Sector),94.27,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_31,Fuels,Solid,Coal & Coke,mmbtu,mmbtu,g CH4,Mixed (Commercial Sector),11,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_32,Fuels,Solid,Coal & Coke,mmbtu,mmbtu,g N2O,Mixed (Commercial Sector),1.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_33,Fuels,Solid,Coal & Coke,short ton,short ton,kg CO2,Mixed (Commercial Sector),2016,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_34,Fuels,Solid,Coal & Coke,short ton,short ton,g CH4,Mixed (Commercial Sector),235,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_35,Fuels,Solid,Coal & Coke,short ton,short ton,g N2O,Mixed (Commercial Sector),34,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_36,Fuels,Solid,Coal & Coke,short ton,short ton,mmbtu,Mixed (Electric Power Sector),19.73,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_37,Fuels,Solid,Coal & Coke,mmbtu,mmbtu,kg CO2,Mixed (Electric Power Sector),95.52,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_38,Fuels,Solid,Coal & Coke,mmbtu,mmbtu,g CH4,Mixed (Electric Power Sector),11,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_39,Fuels,Solid,Coal & Coke,mmbtu,mmbtu,g N2O,Mixed (Electric Power Sector),1.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_40,Fuels,Solid,Coal & Coke,short ton,short ton,kg CO2,Mixed (Electric Power Sector),1885,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_41,Fuels,Solid,Coal & Coke,short ton,short ton,g CH4,Mixed (Electric Power Sector),217,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_42,Fuels,Solid,Coal & Coke,short ton,short ton,g N2O,Mixed (Electric Power Sector),32,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_43,Fuels,Solid,Coal & Coke,short ton,short ton,mmbtu,Mixed (Industrial Coking),26.28,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_44,Fuels,Solid,Coal & Coke,mmbtu,mmbtu,kg CO2,Mixed (Industrial Coking),93.9,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_45,Fuels,Solid,Coal & Coke,mmbtu,mmbtu,g CH4,Mixed (Industrial Coking),11,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_46,Fuels,Solid,Coal & Coke,mmbtu,mmbtu,g N2O,Mixed (Industrial Coking),1.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_47,Fuels,Solid,Coal & Coke,short ton,short ton,kg CO2,Mixed (Industrial Coking),2468,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_48,Fuels,Solid,Coal & Coke,short ton,short ton,g CH4,Mixed (Industrial Coking),289,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_49,Fuels,Solid,Coal & Coke,short ton,short ton,g N2O,Mixed (Industrial Coking),42,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_50,Fuels,Solid,Coal & Coke,short ton,short ton,mmbtu,Mixed (Industrial Sector),22.35,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_51,Fuels,Solid,Coal & Coke,mmbtu,mmbtu,kg CO2,Mixed (Industrial Sector),94.67,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_52,Fuels,Solid,Coal & Coke,mmbtu,mmbtu,g CH4,Mixed (Industrial Sector),11,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_53,Fuels,Solid,Coal & Coke,mmbtu,mmbtu,g N2O,Mixed (Industrial Sector),1.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_54,Fuels,Solid,Coal & Coke,short ton,short ton,kg CO2,Mixed (Industrial Sector),2116,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_55,Fuels,Solid,Coal & Coke,short ton,short ton,g CH4,Mixed (Industrial Sector),246,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_56,Fuels,Solid,Coal & Coke,short ton,short ton,g N2O,Mixed (Industrial Sector),36,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_57,Fuels,Solid,Coal & Coke,short ton,short ton,mmbtu,Coal Coke,24.8,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_58,Fuels,Solid,Coal & Coke,mmbtu,mmbtu,kg CO2,Coal Coke,113.67,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_59,Fuels,Solid,Coal & Coke,mmbtu,mmbtu,g CH4,Coal Coke,11,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_60,Fuels,Solid,Coal & Coke,mmbtu,mmbtu,g N2O,Coal Coke,1.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_61,Fuels,Solid,Coal & Coke,short ton,short ton,kg CO2,Coal Coke,2819,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_62,Fuels,Solid,Coal & Coke,short ton,short ton,g CH4,Coal Coke,273,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_63,Fuels,Solid,Coal & Coke,short ton,short ton,g N2O,Coal Coke,40,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_64,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,mmbtu,Municipal Solid Waste,9.95,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_65,Fuels,Solid,Fossil Fuel-derived Fuels,mmbtu,mmbtu,kg CO2,Municipal Solid Waste,90.7,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_66,Fuels,Solid,Fossil Fuel-derived Fuels,mmbtu,mmbtu,g CH4,Municipal Solid Waste,32,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_67,Fuels,Solid,Fossil Fuel-derived Fuels,mmbtu,mmbtu,g N2O,Municipal Solid Waste,4.2,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_68,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,kg CO2,Municipal Solid Waste,902,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_69,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,g CH4,Municipal Solid Waste,318,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_70,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,g N2O,Municipal Solid Waste,42,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_71,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,mmbtu,Petroleum Coke (Solid),30,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_72,Fuels,Solid,Fossil Fuel-derived Fuels,mmbtu,mmbtu,kg CO2,Petroleum Coke (Solid),102.41,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_73,Fuels,Solid,Fossil Fuel-derived Fuels,mmbtu,mmbtu,g CH4,Petroleum Coke (Solid),32,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_74,Fuels,Solid,Fossil Fuel-derived Fuels,mmbtu,mmbtu,g N2O,Petroleum Coke (Solid),4.2,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_75,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,kg CO2,Petroleum Coke (Solid),3072,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_76,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,g CH4,Petroleum Coke (Solid),960,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_77,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,g N2O,Petroleum Coke (Solid),126,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_78,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,mmbtu,Plastics,38,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_79,Fuels,Solid,Fossil Fuel-derived Fuels,mmbtu,mmbtu,kg CO2,Plastics,75,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_80,Fuels,Solid,Fossil Fuel-derived Fuels,mmbtu,mmbtu,g CH4,Plastics,32,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_81,Fuels,Solid,Fossil Fuel-derived Fuels,mmbtu,mmbtu,g N2O,Plastics,4.2,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_82,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,kg CO2,Plastics,2850,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_83,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,g CH4,Plastics,1216,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_84,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,g N2O,Plastics,160,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_85,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,mmbtu,Tires,28,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_86,Fuels,Solid,Fossil Fuel-derived Fuels,mmbtu,mmbtu,kg CO2,Tires,85.97,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_87,Fuels,Solid,Fossil Fuel-derived Fuels,mmbtu,mmbtu,g CH4,Tires,32,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_88,Fuels,Solid,Fossil Fuel-derived Fuels,mmbtu,mmbtu,g N2O,Tires,4.2,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_89,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,kg CO2,Tires,2407,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_90,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,g CH4,Tires,896,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_91,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,g N2O,Tires,118,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_92,Fuels,Solid,Biomass Fuels,short ton,short ton,mmbtu,Agricultural Byproducts,8.25,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_93,Fuels,Solid,Biomass Fuels,mmbtu,mmbtu,kg CO2,Agricultural Byproducts,118.17,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_94,Fuels,Solid,Biomass Fuels,mmbtu,mmbtu,g CH4,Agricultural Byproducts,32,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_95,Fuels,Solid,Biomass Fuels,mmbtu,mmbtu,g N2O,Agricultural Byproducts,4.2,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_96,Fuels,Solid,Biomass Fuels,short ton,short ton,kg CO2,Agricultural Byproducts,975,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_97,Fuels,Solid,Biomass Fuels,short ton,short ton,g CH4,Agricultural Byproducts,264,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_98,Fuels,Solid,Biomass Fuels,short ton,short ton,g N2O,Agricultural Byproducts,35,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_99,Fuels,Solid,Biomass Fuels,short ton,short ton,mmbtu,Peat,8,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_100,Fuels,Solid,Biomass Fuels,mmbtu,mmbtu,kg CO2,Peat,111.84,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_101,Fuels,Solid,Biomass Fuels,mmbtu,mmbtu,g CH4,Peat,32,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_102,Fuels,Solid,Biomass Fuels,mmbtu,mmbtu,g N2O,Peat,4.2,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_103,Fuels,Solid,Biomass Fuels,short ton,short ton,kg CO2,Peat,895,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_104,Fuels,Solid,Biomass Fuels,short ton,short ton,g CH4,Peat,256,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_105,Fuels,Solid,Biomass Fuels,short ton,short ton,g N2O,Peat,34,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_106,Fuels,Solid,Biomass Fuels,short ton,short ton,mmbtu,Solid Byproducts,10.39,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_107,Fuels,Solid,Biomass Fuels,mmbtu,mmbtu,kg CO2,Solid Byproducts,105.51,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_108,Fuels,Solid,Biomass Fuels,mmbtu,mmbtu,g CH4,Solid Byproducts,32,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_109,Fuels,Solid,Biomass Fuels,mmbtu,mmbtu,g N2O,Solid Byproducts,4.2,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_110,Fuels,Solid,Biomass Fuels,short ton,short ton,kg CO2,Solid Byproducts,1096,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_111,Fuels,Solid,Biomass Fuels,short ton,short ton,g CH4,Solid Byproducts,332,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_112,Fuels,Solid,Biomass Fuels,short ton,short ton,g N2O,Solid Byproducts,44,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_113,Fuels,Solid,Biomass Fuels,short ton,short ton,mmbtu,Wood and Wood Residuals,17.48,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_114,Fuels,Solid,Biomass Fuels,mmbtu,mmbtu,kg CO2,Wood and Wood Residuals,93.8,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_115,Fuels,Solid,Biomass Fuels,mmbtu,mmbtu,g CH4,Wood and Wood Residuals,7.2,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_116,Fuels,Solid,Biomass Fuels,mmbtu,mmbtu,g N2O,Wood and Wood Residuals,3.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_117,Fuels,Solid,Biomass Fuels,short ton,short ton,kg CO2,Wood and Wood Residuals,1640,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_118,Fuels,Solid,Biomass Fuels,short ton,short ton,g CH4,Wood and Wood Residuals,126,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_119,Fuels,Solid,Biomass Fuels,short ton,short ton,g N2O,Wood and Wood Residuals,63,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_120,Fuels,Gaseous,Natural Gas,scf,scf,mmbtu,Natural Gas,0.001026,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_121,Fuels,Gaseous,Natural Gas,mmbtu,mmbtu,kg CO2,Natural Gas,53.06,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_122,Fuels,Gaseous,Natural Gas,mmbtu,mmbtu,g CH4,Natural Gas,1,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_123,Fuels,Gaseous,Natural Gas,mmbtu,mmbtu,g N2O,Natural Gas,0.1,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_124,Fuels,Gaseous,Natural Gas,scf,scf,kg CO2,Natural Gas,0.05444,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_125,Fuels,Gaseous,Natural Gas,scf,scf,g CH4,Natural Gas,0.00103,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_126,Fuels,Gaseous,Natural Gas,scf,scf,g N2O,Natural Gas,0.0001,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_127,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,mmbtu,Blast Furnace Gas,0.000092,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_128,Fuels,Gaseous,Fossil-derived Fuels,mmbtu,mmbtu,kg CO2,Blast Furnace Gas,274.32,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_129,Fuels,Gaseous,Fossil-derived Fuels,mmbtu,mmbtu,g CH4,Blast Furnace Gas,0.022,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_130,Fuels,Gaseous,Fossil-derived Fuels,mmbtu,mmbtu,g N2O,Blast Furnace Gas,0.1,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_131,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,kg CO2,Blast Furnace Gas,0.02524,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_132,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,g CH4,Blast Furnace Gas,0.000002,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_133,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,g N2O,Blast Furnace Gas,0.000009,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_134,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,mmbtu,Coke Oven Gas,0.000599,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_135,Fuels,Gaseous,Fossil-derived Fuels,mmbtu,mmbtu,kg CO2,Coke Oven Gas,46.85,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_136,Fuels,Gaseous,Fossil-derived Fuels,mmbtu,mmbtu,g CH4,Coke Oven Gas,0.48,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_137,Fuels,Gaseous,Fossil-derived Fuels,mmbtu,mmbtu,g N2O,Coke Oven Gas,0.1,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_138,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,kg CO2,Coke Oven Gas,0.02806,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_139,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,g CH4,Coke Oven Gas,0.000288,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_140,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,g N2O,Coke Oven Gas,0.00006,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_141,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,mmbtu,Fuel Gas,0.001388,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_142,Fuels,Gaseous,Fossil-derived Fuels,mmbtu,mmbtu,kg CO2,Fuel Gas,59,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_143,Fuels,Gaseous,Fossil-derived Fuels,mmbtu,mmbtu,g CH4,Fuel Gas,3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_144,Fuels,Gaseous,Fossil-derived Fuels,mmbtu,mmbtu,g N2O,Fuel Gas,0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_145,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,kg CO2,Fuel Gas,0.08189,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_146,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,g CH4,Fuel Gas,0.004164,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_147,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,g N2O,Fuel Gas,0.000833,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_148,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,mmbtu,Propane Gas,0.002516,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_149,Fuels,Gaseous,Fossil-derived Fuels,mmbtu,mmbtu,kg CO2,Propane Gas,61.46,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_150,Fuels,Gaseous,Fossil-derived Fuels,mmbtu,mmbtu,g CH4,Propane Gas,0.022,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_151,Fuels,Gaseous,Fossil-derived Fuels,mmbtu,mmbtu,g N2O,Propane Gas,0.1,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_152,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,kg CO2,Propane Gas,0.15463,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_153,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,g CH4,Propane Gas,0.000055,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_154,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,g N2O,Propane Gas,0.000252,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_155,Fuels,Gaseous,Biomass Fuels,scf,scf,mmbtu,Landfill Gas,0.000485,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_156,Fuels,Gaseous,Biomass Fuels,mmbtu,mmbtu,kg CO2,Landfill Gas,52.07,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_157,Fuels,Gaseous,Biomass Fuels,mmbtu,mmbtu,g CH4,Landfill Gas,3.2,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_158,Fuels,Gaseous,Biomass Fuels,mmbtu,mmbtu,g N2O,Landfill Gas,0.63,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_159,Fuels,Gaseous,Biomass Fuels,scf,scf,kg CO2,Landfill Gas,0.025254,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_160,Fuels,Gaseous,Biomass Fuels,scf,scf,g CH4,Landfill Gas,0.001552,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_161,Fuels,Gaseous,Biomass Fuels,scf,scf,g N2O,Landfill Gas,0.000306,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_162,Fuels,Gaseous,Biomass Fuels,scf,scf,mmbtu,Other Biomass Gases,0.000655,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_163,Fuels,Gaseous,Biomass Fuels,mmbtu,mmbtu,kg CO2,Other Biomass Gases,52.07,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_164,Fuels,Gaseous,Biomass Fuels,mmbtu,mmbtu,g CH4,Other Biomass Gases,3.2,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_165,Fuels,Gaseous,Biomass Fuels,mmbtu,mmbtu,g N2O,Other Biomass Gases,0.63,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_166,Fuels,Gaseous,Biomass Fuels,scf,scf,kg CO2,Other Biomass Gases,0.034106,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_167,Fuels,Gaseous,Biomass Fuels,scf,scf,g CH4,Other Biomass Gases,0.002096,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_168,Fuels,Gaseous,Biomass Fuels,scf,scf,g N2O,Other Biomass Gases,0.000413,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_169,,,Petroleum Products,gallon,gallon,mmbtu,Asphalt and Road Oil,0.158,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_170,,,Petroleum Products,mmbtu,mmbtu,kg CO2,Asphalt and Road Oil,75.36,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_171,,,Petroleum Products,mmbtu,mmbtu,g CH4,Asphalt and Road Oil,3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_172,,,Petroleum Products,mmbtu,mmbtu,g N2O,Asphalt and Road Oil,0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_173,,,Petroleum Products,gallon,gallon,kg CO2,Asphalt and Road Oil,11.91,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_174,,,Petroleum Products,gallon,gallon,g CH4,Asphalt and Road Oil,0.47,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_175,,,Petroleum Products,gallon,gallon,g N2O,Asphalt and Road Oil,0.09,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_176,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Aviation Gasoline,0.12,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_177,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Aviation Gasoline,69.25,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_178,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Aviation Gasoline,3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_179,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Aviation Gasoline,0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_180,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Aviation Gasoline,8.31,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_181,Fuels,,Petroleum Products,gallon,gallon,g CH4,Aviation Gasoline,0.36,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_182,Fuels,,Petroleum Products,gallon,gallon,g N2O,Aviation Gasoline,0.07,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_183,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Butane,0.103,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_184,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Butane,64.77,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_185,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Butane,3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_186,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Butane,0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_187,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Butane,6.67,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_188,Fuels,,Petroleum Products,gallon,gallon,g CH4,Butane,0.31,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_189,Fuels,,Petroleum Products,gallon,gallon,g N2O,Butane,0.06,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_190,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Butylene,0.105,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_191,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Butylene,68.72,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_192,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Butylene,3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_193,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Butylene,0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_194,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Butylene,7.22,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_195,Fuels,,Petroleum Products,gallon,gallon,g CH4,Butylene,0.32,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_196,Fuels,,Petroleum Products,gallon,gallon,g N2O,Butylene,0.06,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_197,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Crude Oil,0.138,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_198,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Crude Oil,74.54,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_199,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Crude Oil,3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_200,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Crude Oil,0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_201,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Crude Oil,10.29,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_202,Fuels,,Petroleum Products,gallon,gallon,g CH4,Crude Oil,0.41,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_203,Fuels,,Petroleum Products,gallon,gallon,g N2O,Crude Oil,0.08,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_204,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Distillate Fuel Oil No. 1,0.139,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_205,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Distillate Fuel Oil No. 1,73.25,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_206,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Distillate Fuel Oil No. 1,3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_207,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Distillate Fuel Oil No. 1,0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_208,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Distillate Fuel Oil No. 1,10.18,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_209,Fuels,,Petroleum Products,gallon,gallon,g CH4,Distillate Fuel Oil No. 1,0.42,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_210,Fuels,,Petroleum Products,gallon,gallon,g N2O,Distillate Fuel Oil No. 1,0.08,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_211,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Distillate Fuel Oil No. 2,0.138,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_212,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Distillate Fuel Oil No. 2,73.96,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_213,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Distillate Fuel Oil No. 2,3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_214,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Distillate Fuel Oil No. 2,0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_215,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Distillate Fuel Oil No. 2,10.21,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_216,Fuels,,Petroleum Products,gallon,gallon,g CH4,Distillate Fuel Oil No. 2,0.41,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_217,Fuels,,Petroleum Products,gallon,gallon,g N2O,Distillate Fuel Oil No. 2,0.08,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_218,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Distillate Fuel Oil No. 4,0.146,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_219,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Distillate Fuel Oil No. 4,75.04,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_220,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Distillate Fuel Oil No. 4,3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_221,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Distillate Fuel Oil No. 4,0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_222,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Distillate Fuel Oil No. 4,10.96,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_223,Fuels,,Petroleum Products,gallon,gallon,g CH4,Distillate Fuel Oil No. 4,0.44,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_224,Fuels,,Petroleum Products,gallon,gallon,g N2O,Distillate Fuel Oil No. 4,0.09,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_225,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Ethane,0.068,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_226,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Ethane,59.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_227,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Ethane,3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_228,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Ethane,0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_229,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Ethane,4.05,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_230,Fuels,,Petroleum Products,gallon,gallon,g CH4,Ethane,0.2,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_231,Fuels,,Petroleum Products,gallon,gallon,g N2O,Ethane,0.04,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_232,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Ethylene,0.058,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_233,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Ethylene,65.96,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_234,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Ethylene,3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_235,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Ethylene,0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_236,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Ethylene,3.83,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_237,Fuels,,Petroleum Products,gallon,gallon,g CH4,Ethylene,0.17,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_238,Fuels,,Petroleum Products,gallon,gallon,g N2O,Ethylene,0.03,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_239,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Heavy Gas Oils,0.148,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_240,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Heavy Gas Oils,74.92,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_241,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Heavy Gas Oils,3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_242,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Heavy Gas Oils,0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_243,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Heavy Gas Oils,11.09,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_244,Fuels,,Petroleum Products,gallon,gallon,g CH4,Heavy Gas Oils,0.44,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_245,Fuels,,Petroleum Products,gallon,gallon,g N2O,Heavy Gas Oils,0.09,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_246,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Isobutane,0.099,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_247,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Isobutane,64.94,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_248,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Isobutane,3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_249,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Isobutane,0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_250,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Isobutane,6.43,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_251,Fuels,,Petroleum Products,gallon,gallon,g CH4,Isobutane,0.3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_252,Fuels,,Petroleum Products,gallon,gallon,g N2O,Isobutane,0.06,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_253,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Isobutylene,0.103,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_254,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Isobutylene,68.86,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_255,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Isobutylene,3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_256,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Isobutylene,0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_257,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Isobutylene,7.09,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_258,Fuels,,Petroleum Products,gallon,gallon,g CH4,Isobutylene,0.31,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_259,Fuels,,Petroleum Products,gallon,gallon,g N2O,Isobutylene,0.06,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_260,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Kerosene,0.135,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_261,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Kerosene,75.2,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_262,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Kerosene,3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_263,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Kerosene,0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_264,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Kerosene,10.15,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_265,Fuels,,Petroleum Products,gallon,gallon,g CH4,Kerosene,0.41,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_266,Fuels,,Petroleum Products,gallon,gallon,g N2O,Kerosene,0.08,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_267,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Kerosene-Type Jet Fuel,0.135,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_268,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Kerosene-Type Jet Fuel,72.22,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_269,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Kerosene-Type Jet Fuel,3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_270,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Kerosene-Type Jet Fuel,0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_271,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Kerosene-Type Jet Fuel,9.75,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_272,Fuels,,Petroleum Products,gallon,gallon,g CH4,Kerosene-Type Jet Fuel,0.41,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_273,Fuels,,Petroleum Products,gallon,gallon,g N2O,Kerosene-Type Jet Fuel,0.08,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_274,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Liquefied Petroleum Gases (LPG),0.092,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_275,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Liquefied Petroleum Gases (LPG),61.71,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_276,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Liquefied Petroleum Gases (LPG),3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_277,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Liquefied Petroleum Gases (LPG),0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_278,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Liquefied Petroleum Gases (LPG),5.68,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_279,Fuels,,Petroleum Products,gallon,gallon,g CH4,Liquefied Petroleum Gases (LPG),0.28,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_280,Fuels,,Petroleum Products,gallon,gallon,g N2O,Liquefied Petroleum Gases (LPG),0.06,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_281,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Lubricants,0.144,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_282,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Lubricants,74.27,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_283,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Lubricants,3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_284,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Lubricants,0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_285,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Lubricants,10.69,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_286,Fuels,,Petroleum Products,gallon,gallon,g CH4,Lubricants,0.43,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_287,Fuels,,Petroleum Products,gallon,gallon,g N2O,Lubricants,0.09,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_288,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Motor Gasoline,0.125,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_289,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Motor Gasoline,70.22,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_290,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Motor Gasoline,3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_291,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Motor Gasoline,0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_292,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Motor Gasoline,8.78,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_293,Fuels,,Petroleum Products,gallon,gallon,g CH4,Motor Gasoline,0.38,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_294,Fuels,,Petroleum Products,gallon,gallon,g N2O,Motor Gasoline,0.08,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_295,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Naphtha (<401 deg F),0.125,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_296,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Naphtha (<401 deg F),68.02,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_297,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Naphtha (<401 deg F),3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_298,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Naphtha (<401 deg F),0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_299,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Naphtha (<401 deg F),8.5,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_300,Fuels,,Petroleum Products,gallon,gallon,g CH4,Naphtha (<401 deg F),0.38,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_301,Fuels,,Petroleum Products,gallon,gallon,g N2O,Naphtha (<401 deg F),0.08,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_302,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Natural Gasoline,0.11,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_303,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Natural Gasoline,66.88,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_304,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Natural Gasoline,3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_305,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Natural Gasoline,0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_306,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Natural Gasoline,7.36,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_307,Fuels,,Petroleum Products,gallon,gallon,g CH4,Natural Gasoline,0.33,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_308,Fuels,,Petroleum Products,gallon,gallon,g N2O,Natural Gasoline,0.07,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_309,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Other Oil (>401 deg F),0.139,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_310,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Other Oil (>401 deg F),76.22,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_311,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Other Oil (>401 deg F),3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_312,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Other Oil (>401 deg F),0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_313,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Other Oil (>401 deg F),10.59,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_314,Fuels,,Petroleum Products,gallon,gallon,g CH4,Other Oil (>401 deg F),0.42,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_315,Fuels,,Petroleum Products,gallon,gallon,g N2O,Other Oil (>401 deg F),0.08,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_316,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Pentanes Plus,0.11,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_317,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Pentanes Plus,70.02,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_318,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Pentanes Plus,3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_319,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Pentanes Plus,0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_320,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Pentanes Plus,7.7,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_321,Fuels,,Petroleum Products,gallon,gallon,g CH4,Pentanes Plus,0.33,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_322,Fuels,,Petroleum Products,gallon,gallon,g N2O,Pentanes Plus,0.07,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_323,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Petrochemical Feedstocks,0.125,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_324,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Petrochemical Feedstocks,71.02,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_325,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Petrochemical Feedstocks,3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_326,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Petrochemical Feedstocks,0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_327,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Petrochemical Feedstocks,8.88,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_328,Fuels,,Petroleum Products,gallon,gallon,g CH4,Petrochemical Feedstocks,0.38,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_329,Fuels,,Petroleum Products,gallon,gallon,g N2O,Petrochemical Feedstocks,0.08,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_330,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Petroleum Coke,0.143,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_331,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Petroleum Coke,102.41,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_332,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Petroleum Coke,3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_333,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Petroleum Coke,0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_334,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Petroleum Coke,14.64,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_335,Fuels,,Petroleum Products,gallon,gallon,g CH4,Petroleum Coke,0.43,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_336,Fuels,,Petroleum Products,gallon,gallon,g N2O,Petroleum Coke,0.09,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_337,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Propane,0.091,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_338,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Propane,62.87,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_339,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Propane,3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_340,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Propane,0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_341,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Propane,5.72,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_342,Fuels,,Petroleum Products,gallon,gallon,g CH4,Propane,0.27,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_343,Fuels,,Petroleum Products,gallon,gallon,g N2O,Propane,0.05,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_344,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Propylene,0.091,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_345,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Propylene,65.95,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_346,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Propylene,3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_347,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Propylene,0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_348,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Propylene,6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_349,Fuels,,Petroleum Products,gallon,gallon,g CH4,Propylene,0.27,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_350,Fuels,,Petroleum Products,gallon,gallon,g N2O,Propylene,0.05,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_351,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Residual Fuel Oil No. 5,0.14,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_352,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Residual Fuel Oil No. 5,72.93,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_353,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Residual Fuel Oil No. 5,3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_354,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Residual Fuel Oil No. 5,0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_355,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Residual Fuel Oil No. 5,10.21,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_356,Fuels,,Petroleum Products,gallon,gallon,g CH4,Residual Fuel Oil No. 5,0.42,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_357,Fuels,,Petroleum Products,gallon,gallon,g N2O,Residual Fuel Oil No. 5,0.08,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_358,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Residual Fuel Oil No. 6,0.15,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_359,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Residual Fuel Oil No. 6,75.1,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_360,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Residual Fuel Oil No. 6,3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_361,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Residual Fuel Oil No. 6,0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_362,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Residual Fuel Oil No. 6,11.27,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_363,Fuels,,Petroleum Products,gallon,gallon,g CH4,Residual Fuel Oil No. 6,0.45,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_364,Fuels,,Petroleum Products,gallon,gallon,g N2O,Residual Fuel Oil No. 6,0.09,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_365,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Special Naphtha,0.125,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_366,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Special Naphtha,72.34,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_367,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Special Naphtha,3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_368,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Special Naphtha,0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_369,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Special Naphtha,9.04,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_370,Fuels,,Petroleum Products,gallon,gallon,g CH4,Special Naphtha,0.38,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_371,Fuels,,Petroleum Products,gallon,gallon,g N2O,Special Naphtha,0.08,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_372,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Still Gas,0.143,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_373,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Still Gas,66.72,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_374,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Still Gas,3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_375,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Still Gas,0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_376,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Still Gas,9.54,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_377,Fuels,,Petroleum Products,gallon,gallon,g CH4,Still Gas,0.43,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_378,Fuels,,Petroleum Products,gallon,gallon,g N2O,Still Gas,0.09,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_379,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Unfinished Oils,0.139,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_380,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Unfinished Oils,74.54,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_381,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Unfinished Oils,3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_382,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Unfinished Oils,0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_383,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Unfinished Oils,10.36,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_384,Fuels,,Petroleum Products,gallon,gallon,g CH4,Unfinished Oils,0.42,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_385,Fuels,,Petroleum Products,gallon,gallon,g N2O,Unfinished Oils,0.08,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_386,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Used Oil,0.138,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_387,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Used Oil,74,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_388,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Used Oil,3,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_389,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Used Oil,0.6,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_390,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Used Oil,10.21,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_391,Fuels,,Petroleum Products,gallon,gallon,g CH4,Used Oil,0.41,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_392,Fuels,,Petroleum Products,gallon,gallon,g N2O,Used Oil,0.08,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_393,Fuels,Liquid,Biomass Fuels,gallon,gallon,mmbtu,Biodiesel (100%),0.128,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_394,Fuels,Liquid,Biomass Fuels,mmbtu,mmbtu,kg CO2,Biodiesel (100%),73.84,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_395,Fuels,Liquid,Biomass Fuels,mmbtu,mmbtu,g CH4,Biodiesel (100%),1.1,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_396,Fuels,Liquid,Biomass Fuels,mmbtu,mmbtu,g N2O,Biodiesel (100%),0.11,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_397,Fuels,Liquid,Biomass Fuels,gallon,gallon,kg CO2,Biodiesel (100%),9.45,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_398,Fuels,Liquid,Biomass Fuels,gallon,gallon,g CH4,Biodiesel (100%),0.14,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_399,Fuels,Liquid,Biomass Fuels,gallon,gallon,g N2O,Biodiesel (100%),0.01,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_400,Fuels,Liquid,Biomass Fuels,gallon,gallon,mmbtu,Ethanol (100%),0.084,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_401,Fuels,Liquid,Biomass Fuels,mmbtu,mmbtu,kg CO2,Ethanol (100%),68.44,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_402,Fuels,Liquid,Biomass Fuels,mmbtu,mmbtu,g CH4,Ethanol (100%),1.1,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_403,Fuels,Liquid,Biomass Fuels,mmbtu,mmbtu,g N2O,Ethanol (100%),0.11,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_404,Fuels,Liquid,Biomass Fuels,gallon,gallon,kg CO2,Ethanol (100%),5.75,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_405,Fuels,Liquid,Biomass Fuels,gallon,gallon,g CH4,Ethanol (100%),0.09,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_406,Fuels,Liquid,Biomass Fuels,gallon,gallon,g N2O,Ethanol (100%),0.01,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_407,Fuels,Liquid,Biomass Fuels,gallon,gallon,mmbtu,Rendered Animal Fat,0.125,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_408,Fuels,Liquid,Biomass Fuels,mmbtu,mmbtu,kg CO2,Rendered Animal Fat,71.06,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_409,Fuels,Liquid,Biomass Fuels,mmbtu,mmbtu,g CH4,Rendered Animal Fat,1.1,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_410,Fuels,Liquid,Biomass Fuels,mmbtu,mmbtu,g N2O,Rendered Animal Fat,0.11,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_411,Fuels,Liquid,Biomass Fuels,gallon,gallon,kg CO2,Rendered Animal Fat,8.88,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_412,Fuels,Liquid,Biomass Fuels,gallon,gallon,g CH4,Rendered Animal Fat,0.14,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_413,Fuels,Liquid,Biomass Fuels,gallon,gallon,g N2O,Rendered Animal Fat,0.01,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_414,Fuels,Liquid,Biomass Fuels,gallon,gallon,mmbtu,Vegetable Oil,0.12,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_415,Fuels,Liquid,Biomass Fuels,mmbtu,mmbtu,kg CO2,Vegetable Oil,81.55,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_416,Fuels,Liquid,Biomass Fuels,mmbtu,mmbtu,g CH4,Vegetable Oil,1.1,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_417,Fuels,Liquid,Biomass Fuels,mmbtu,mmbtu,g N2O,Vegetable Oil,0.11,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_418,Fuels,Liquid,Biomass Fuels,gallon,gallon,kg CO2,Vegetable Oil,9.79,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_419,Fuels,Liquid,Biomass Fuels,gallon,gallon,g CH4,Vegetable Oil,0.13,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_420,Fuels,Liquid,Biomass Fuels,gallon,gallon,g N2O,Vegetable Oil,0.01,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_421,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,mmbtu,North American Softwood,,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_422,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,mmbtu,mmbtu,kg CO2,North American Softwood,94.4,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_423,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,mmbtu,mmbtu,g CH4,North American Softwood,1.9,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_424,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,mmbtu,mmbtu,g N2O,North American Softwood,0.42,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_425,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,kg CO2,North American Softwood,,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_426,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,g CH4,North American Softwood,,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_427,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,g N2O,North American Softwood,,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_428,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,mmbtu,North American Hardwood,,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_429,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,mmbtu,mmbtu,kg CO2,North American Hardwood,93.7,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_430,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,mmbtu,mmbtu,g CH4,North American Hardwood,1.9,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_431,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,mmbtu,mmbtu,g N2O,North American Hardwood,0.42,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_432,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,kg CO2,North American Hardwood,,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_433,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,g CH4,North American Hardwood,,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_434,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,g N2O,North American Hardwood,,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_435,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,mmbtu,Bagasse,,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_436,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,mmbtu,mmbtu,kg CO2,Bagasse,95.5,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_437,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,mmbtu,mmbtu,g CH4,Bagasse,1.9,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_438,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,mmbtu,mmbtu,g N2O,Bagasse,0.42,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_439,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,kg CO2,Bagasse,,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_440,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,g CH4,Bagasse,,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_441,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,g N2O,Bagasse,,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_442,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,mmbtu,Bamboo,,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_443,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,mmbtu,mmbtu,kg CO2,Bamboo,93.7,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_444,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,mmbtu,mmbtu,g CH4,Bamboo,1.9,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_445,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,mmbtu,mmbtu,g N2O,Bamboo,0.42,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_446,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,kg CO2,Bamboo,,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_447,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,g CH4,Bamboo,,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_448,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,g N2O,Bamboo,,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_449,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,mmbtu,Straw,,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_450,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,mmbtu,mmbtu,kg CO2,Straw,95.1,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_451,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,mmbtu,mmbtu,g CH4,Straw,1.9,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_452,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,mmbtu,mmbtu,g N2O,Straw,0.42,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_453,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,kg CO2,Straw,,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_454,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,g CH4,Straw,,2015-01-01 00:00:00,2015-12-31 23:59:59
+2015_455,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,g N2O,Straw,,2015-01-01 00:00:00,2015-12-31 23:59:59

@@ -1,0 +1,448 @@
+id,Level 1,Level 2,Fuel Type,UOM (simple),UOM,GHG,Lookup,GHG Conversion Factor 2021,valid_from,valid_to
+2021_1,Fuels,Solid,Coal,short ton,short ton,mmbtu,Anthracite Coal,25.09,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_2,Fuels,Solid,Coal,mmbtu,mmbtu,kg CO2,Anthracite Coal,103.69,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_3,Fuels,Solid,Coal,mmbtu,mmbtu,g CH4,Anthracite Coal,11,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_4,Fuels,Solid,Coal,mmbtu,mmbtu,g N2O,Anthracite Coal,1.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_5,Fuels,Solid,Coal,short ton,short ton,kg CO2,Anthracite Coal,2602,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_6,Fuels,Solid,Coal,short ton,short ton,g CH4,Anthracite Coal,276,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_7,Fuels,Solid,Coal,short ton,short ton,g N2O,Anthracite Coal,40,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_8,Fuels,Solid,Coal,short ton,short ton,mmbtu,Bituminous Coal,24.93,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_9,Fuels,Solid,Coal,mmbtu,mmbtu,kg CO2,Bituminous Coal,93.28,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_10,Fuels,Solid,Coal,mmbtu,mmbtu,g CH4,Bituminous Coal,11,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_11,Fuels,Solid,Coal,mmbtu,mmbtu,g N2O,Bituminous Coal,1.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_12,Fuels,Solid,Coal,short ton,short ton,kg CO2,Bituminous Coal,2325,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_13,Fuels,Solid,Coal,short ton,short ton,g CH4,Bituminous Coal,274,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_14,Fuels,Solid,Coal,short ton,short ton,g N2O,Bituminous Coal,40,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_15,Fuels,Solid,Coal,short ton,short ton,mmbtu,Sub-bituminous Coal,17.25,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_16,Fuels,Solid,Coal,mmbtu,mmbtu,kg CO2,Sub-bituminous Coal,97.17,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_17,Fuels,Solid,Coal,mmbtu,mmbtu,g CH4,Sub-bituminous Coal,11,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_18,Fuels,Solid,Coal,mmbtu,mmbtu,g N2O,Sub-bituminous Coal,1.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_19,Fuels,Solid,Coal,short ton,short ton,kg CO2,Sub-bituminous Coal,1676,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_20,Fuels,Solid,Coal,short ton,short ton,g CH4,Sub-bituminous Coal,190,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_21,Fuels,Solid,Coal,short ton,short ton,g N2O,Sub-bituminous Coal,28,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_22,Fuels,Solid,Coal,short ton,short ton,mmbtu,Lignite Coal,14.21,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_23,Fuels,Solid,Coal,mmbtu,mmbtu,kg CO2,Lignite Coal,97.72,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_24,Fuels,Solid,Coal,mmbtu,mmbtu,g CH4,Lignite Coal,11,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_25,Fuels,Solid,Coal,mmbtu,mmbtu,g N2O,Lignite Coal,1.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_26,Fuels,Solid,Coal,short ton,short ton,kg CO2,Lignite Coal,1389,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_27,Fuels,Solid,Coal,short ton,short ton,g CH4,Lignite Coal,156,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_28,Fuels,Solid,Coal,short ton,short ton,g N2O,Lignite Coal,23,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_29,Fuels,Solid,Coal & Coke,short ton,short ton,mmbtu,Mixed (Commercial Sector),21.39,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_30,Fuels,Solid,Coal & Coke,mmbtu,mmbtu,kg CO2,Mixed (Commercial Sector),94.27,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_31,Fuels,Solid,Coal & Coke,mmbtu,mmbtu,g CH4,Mixed (Commercial Sector),11,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_32,Fuels,Solid,Coal & Coke,mmbtu,mmbtu,g N2O,Mixed (Commercial Sector),1.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_33,Fuels,Solid,Coal & Coke,short ton,short ton,kg CO2,Mixed (Commercial Sector),2016,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_34,Fuels,Solid,Coal & Coke,short ton,short ton,g CH4,Mixed (Commercial Sector),235,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_35,Fuels,Solid,Coal & Coke,short ton,short ton,g N2O,Mixed (Commercial Sector),34,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_36,Fuels,Solid,Coal & Coke,short ton,short ton,mmbtu,Mixed (Electric Power Sector),19.73,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_37,Fuels,Solid,Coal & Coke,mmbtu,mmbtu,kg CO2,Mixed (Electric Power Sector),95.52,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_38,Fuels,Solid,Coal & Coke,mmbtu,mmbtu,g CH4,Mixed (Electric Power Sector),11,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_39,Fuels,Solid,Coal & Coke,mmbtu,mmbtu,g N2O,Mixed (Electric Power Sector),1.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_40,Fuels,Solid,Coal & Coke,short ton,short ton,kg CO2,Mixed (Electric Power Sector),1885,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_41,Fuels,Solid,Coal & Coke,short ton,short ton,g CH4,Mixed (Electric Power Sector),217,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_42,Fuels,Solid,Coal & Coke,short ton,short ton,g N2O,Mixed (Electric Power Sector),32,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_43,Fuels,Solid,Coal & Coke,short ton,short ton,mmbtu,Mixed (Industrial Coking),26.28,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_44,Fuels,Solid,Coal & Coke,mmbtu,mmbtu,kg CO2,Mixed (Industrial Coking),93.9,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_45,Fuels,Solid,Coal & Coke,mmbtu,mmbtu,g CH4,Mixed (Industrial Coking),11,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_46,Fuels,Solid,Coal & Coke,mmbtu,mmbtu,g N2O,Mixed (Industrial Coking),1.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_47,Fuels,Solid,Coal & Coke,short ton,short ton,kg CO2,Mixed (Industrial Coking),2468,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_48,Fuels,Solid,Coal & Coke,short ton,short ton,g CH4,Mixed (Industrial Coking),289,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_49,Fuels,Solid,Coal & Coke,short ton,short ton,g N2O,Mixed (Industrial Coking),42,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_50,Fuels,Solid,Coal & Coke,short ton,short ton,mmbtu,Mixed (Industrial Sector),22.35,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_51,Fuels,Solid,Coal & Coke,mmbtu,mmbtu,kg CO2,Mixed (Industrial Sector),94.67,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_52,Fuels,Solid,Coal & Coke,mmbtu,mmbtu,g CH4,Mixed (Industrial Sector),11,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_53,Fuels,Solid,Coal & Coke,mmbtu,mmbtu,g N2O,Mixed (Industrial Sector),1.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_54,Fuels,Solid,Coal & Coke,short ton,short ton,kg CO2,Mixed (Industrial Sector),2116,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_55,Fuels,Solid,Coal & Coke,short ton,short ton,g CH4,Mixed (Industrial Sector),246,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_56,Fuels,Solid,Coal & Coke,short ton,short ton,g N2O,Mixed (Industrial Sector),36,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_57,Fuels,Solid,Coal & Coke,short ton,short ton,mmbtu,Coal Coke,24.8,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_58,Fuels,Solid,Coal & Coke,mmbtu,mmbtu,kg CO2,Coal Coke,113.67,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_59,Fuels,Solid,Coal & Coke,mmbtu,mmbtu,g CH4,Coal Coke,11,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_60,Fuels,Solid,Coal & Coke,mmbtu,mmbtu,g N2O,Coal Coke,1.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_61,Fuels,Solid,Coal & Coke,short ton,short ton,kg CO2,Coal Coke,2819,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_62,Fuels,Solid,Coal & Coke,short ton,short ton,g CH4,Coal Coke,273,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_63,Fuels,Solid,Coal & Coke,short ton,short ton,g N2O,Coal Coke,40,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_64,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,mmbtu,Municipal Solid Waste,9.95,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_65,Fuels,Solid,Fossil Fuel-derived Fuels,mmbtu,mmbtu,kg CO2,Municipal Solid Waste,90.7,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_66,Fuels,Solid,Fossil Fuel-derived Fuels,mmbtu,mmbtu,g CH4,Municipal Solid Waste,32,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_67,Fuels,Solid,Fossil Fuel-derived Fuels,mmbtu,mmbtu,g N2O,Municipal Solid Waste,4.2,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_68,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,kg CO2,Municipal Solid Waste,902,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_69,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,g CH4,Municipal Solid Waste,318,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_70,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,g N2O,Municipal Solid Waste,42,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_71,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,mmbtu,Petroleum Coke (Solid),30,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_72,Fuels,Solid,Fossil Fuel-derived Fuels,mmbtu,mmbtu,kg CO2,Petroleum Coke (Solid),102.41,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_73,Fuels,Solid,Fossil Fuel-derived Fuels,mmbtu,mmbtu,g CH4,Petroleum Coke (Solid),32,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_74,Fuels,Solid,Fossil Fuel-derived Fuels,mmbtu,mmbtu,g N2O,Petroleum Coke (Solid),4.2,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_75,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,kg CO2,Petroleum Coke (Solid),3072,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_76,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,g CH4,Petroleum Coke (Solid),960,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_77,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,g N2O,Petroleum Coke (Solid),126,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_78,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,mmbtu,Plastics,38,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_79,Fuels,Solid,Fossil Fuel-derived Fuels,mmbtu,mmbtu,kg CO2,Plastics,75,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_80,Fuels,Solid,Fossil Fuel-derived Fuels,mmbtu,mmbtu,g CH4,Plastics,32,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_81,Fuels,Solid,Fossil Fuel-derived Fuels,mmbtu,mmbtu,g N2O,Plastics,4.2,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_82,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,kg CO2,Plastics,2850,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_83,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,g CH4,Plastics,1216,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_84,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,g N2O,Plastics,160,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_85,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,mmbtu,Tires,28,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_86,Fuels,Solid,Fossil Fuel-derived Fuels,mmbtu,mmbtu,kg CO2,Tires,85.97,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_87,Fuels,Solid,Fossil Fuel-derived Fuels,mmbtu,mmbtu,g CH4,Tires,32,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_88,Fuels,Solid,Fossil Fuel-derived Fuels,mmbtu,mmbtu,g N2O,Tires,4.2,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_89,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,kg CO2,Tires,2407,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_90,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,g CH4,Tires,896,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_91,Fuels,Solid,Fossil Fuel-derived Fuels,short ton,short ton,g N2O,Tires,118,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_92,Fuels,Solid,Biomass Fuels,short ton,short ton,mmbtu,Agricultural Byproducts,8.25,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_93,Fuels,Solid,Biomass Fuels,mmbtu,mmbtu,kg CO2,Agricultural Byproducts,118.17,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_94,Fuels,Solid,Biomass Fuels,mmbtu,mmbtu,g CH4,Agricultural Byproducts,32,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_95,Fuels,Solid,Biomass Fuels,mmbtu,mmbtu,g N2O,Agricultural Byproducts,4.2,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_96,Fuels,Solid,Biomass Fuels,short ton,short ton,kg CO2,Agricultural Byproducts,975,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_97,Fuels,Solid,Biomass Fuels,short ton,short ton,g CH4,Agricultural Byproducts,264,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_98,Fuels,Solid,Biomass Fuels,short ton,short ton,g N2O,Agricultural Byproducts,35,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_99,Fuels,Solid,Biomass Fuels,short ton,short ton,mmbtu,Peat,8,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_100,Fuels,Solid,Biomass Fuels,mmbtu,mmbtu,kg CO2,Peat,111.84,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_101,Fuels,Solid,Biomass Fuels,mmbtu,mmbtu,g CH4,Peat,32,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_102,Fuels,Solid,Biomass Fuels,mmbtu,mmbtu,g N2O,Peat,4.2,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_103,Fuels,Solid,Biomass Fuels,short ton,short ton,kg CO2,Peat,895,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_104,Fuels,Solid,Biomass Fuels,short ton,short ton,g CH4,Peat,256,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_105,Fuels,Solid,Biomass Fuels,short ton,short ton,g N2O,Peat,34,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_106,Fuels,Solid,Biomass Fuels,short ton,short ton,mmbtu,Solid Byproducts,10.39,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_107,Fuels,Solid,Biomass Fuels,mmbtu,mmbtu,kg CO2,Solid Byproducts,105.51,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_108,Fuels,Solid,Biomass Fuels,mmbtu,mmbtu,g CH4,Solid Byproducts,32,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_109,Fuels,Solid,Biomass Fuels,mmbtu,mmbtu,g N2O,Solid Byproducts,4.2,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_110,Fuels,Solid,Biomass Fuels,short ton,short ton,kg CO2,Solid Byproducts,1096,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_111,Fuels,Solid,Biomass Fuels,short ton,short ton,g CH4,Solid Byproducts,332,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_112,Fuels,Solid,Biomass Fuels,short ton,short ton,g N2O,Solid Byproducts,44,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_113,Fuels,Solid,Biomass Fuels,short ton,short ton,mmbtu,Wood and Wood Residuals,17.48,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_114,Fuels,Solid,Biomass Fuels,mmbtu,mmbtu,kg CO2,Wood and Wood Residuals,93.8,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_115,Fuels,Solid,Biomass Fuels,mmbtu,mmbtu,g CH4,Wood and Wood Residuals,7.2,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_116,Fuels,Solid,Biomass Fuels,mmbtu,mmbtu,g N2O,Wood and Wood Residuals,3.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_117,Fuels,Solid,Biomass Fuels,short ton,short ton,kg CO2,Wood and Wood Residuals,1640,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_118,Fuels,Solid,Biomass Fuels,short ton,short ton,g CH4,Wood and Wood Residuals,126,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_119,Fuels,Solid,Biomass Fuels,short ton,short ton,g N2O,Wood and Wood Residuals,63,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_120,Fuels,Gaseous,Natural Gas,scf,scf,mmbtu,Natural Gas,0.001026,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_121,Fuels,Gaseous,Natural Gas,mmbtu,mmbtu,kg CO2,Natural Gas,53.06,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_122,Fuels,Gaseous,Natural Gas,mmbtu,mmbtu,g CH4,Natural Gas,1,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_123,Fuels,Gaseous,Natural Gas,mmbtu,mmbtu,g N2O,Natural Gas,0.1,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_124,Fuels,Gaseous,Natural Gas,scf,scf,kg CO2,Natural Gas,0.05444,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_125,Fuels,Gaseous,Natural Gas,scf,scf,g CH4,Natural Gas,0.00103,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_126,Fuels,Gaseous,Natural Gas,scf,scf,g N2O,Natural Gas,0.0001,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_127,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,mmbtu,Blast Furnace Gas,0.000092,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_128,Fuels,Gaseous,Fossil-derived Fuels,mmbtu,mmbtu,kg CO2,Blast Furnace Gas,274.32,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_129,Fuels,Gaseous,Fossil-derived Fuels,mmbtu,mmbtu,g CH4,Blast Furnace Gas,0.022,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_130,Fuels,Gaseous,Fossil-derived Fuels,mmbtu,mmbtu,g N2O,Blast Furnace Gas,0.1,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_131,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,kg CO2,Blast Furnace Gas,0.02524,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_132,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,g CH4,Blast Furnace Gas,0.000002,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_133,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,g N2O,Blast Furnace Gas,0.000009,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_134,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,mmbtu,Coke Oven Gas,0.000599,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_135,Fuels,Gaseous,Fossil-derived Fuels,mmbtu,mmbtu,kg CO2,Coke Oven Gas,46.85,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_136,Fuels,Gaseous,Fossil-derived Fuels,mmbtu,mmbtu,g CH4,Coke Oven Gas,0.48,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_137,Fuels,Gaseous,Fossil-derived Fuels,mmbtu,mmbtu,g N2O,Coke Oven Gas,0.1,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_138,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,kg CO2,Coke Oven Gas,0.02806,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_139,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,g CH4,Coke Oven Gas,0.000288,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_140,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,g N2O,Coke Oven Gas,0.00006,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_141,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,mmbtu,Fuel Gas,0.001388,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_142,Fuels,Gaseous,Fossil-derived Fuels,mmbtu,mmbtu,kg CO2,Fuel Gas,59,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_143,Fuels,Gaseous,Fossil-derived Fuels,mmbtu,mmbtu,g CH4,Fuel Gas,3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_144,Fuels,Gaseous,Fossil-derived Fuels,mmbtu,mmbtu,g N2O,Fuel Gas,0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_145,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,kg CO2,Fuel Gas,0.08189,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_146,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,g CH4,Fuel Gas,0.004164,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_147,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,g N2O,Fuel Gas,0.000833,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_148,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,mmbtu,Propane Gas,0.002516,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_149,Fuels,Gaseous,Fossil-derived Fuels,mmbtu,mmbtu,kg CO2,Propane Gas,61.46,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_150,Fuels,Gaseous,Fossil-derived Fuels,mmbtu,mmbtu,g CH4,Propane Gas,3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_151,Fuels,Gaseous,Fossil-derived Fuels,mmbtu,mmbtu,g N2O,Propane Gas,0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_152,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,kg CO2,Propane Gas,0.15463,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_153,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,g CH4,Propane Gas,0.007548,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_154,Fuels,Gaseous,Fossil-derived Fuels,scf,scf,g N2O,Propane Gas,0.00151,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_155,Fuels,Gaseous,Biomass Fuels,scf,scf,mmbtu,Landfill Gas,0.000485,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_156,Fuels,Gaseous,Biomass Fuels,mmbtu,mmbtu,kg CO2,Landfill Gas,52.07,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_157,Fuels,Gaseous,Biomass Fuels,mmbtu,mmbtu,g CH4,Landfill Gas,3.2,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_158,Fuels,Gaseous,Biomass Fuels,mmbtu,mmbtu,g N2O,Landfill Gas,0.63,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_159,Fuels,Gaseous,Biomass Fuels,scf,scf,kg CO2,Landfill Gas,0.025254,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_160,Fuels,Gaseous,Biomass Fuels,scf,scf,g CH4,Landfill Gas,0.001552,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_161,Fuels,Gaseous,Biomass Fuels,scf,scf,g N2O,Landfill Gas,0.000306,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_162,Fuels,Gaseous,Biomass Fuels,scf,scf,mmbtu,Other Biomass Gases,0.000655,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_163,Fuels,Gaseous,Biomass Fuels,mmbtu,mmbtu,kg CO2,Other Biomass Gases,52.07,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_164,Fuels,Gaseous,Biomass Fuels,mmbtu,mmbtu,g CH4,Other Biomass Gases,3.2,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_165,Fuels,Gaseous,Biomass Fuels,mmbtu,mmbtu,g N2O,Other Biomass Gases,0.63,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_166,Fuels,Gaseous,Biomass Fuels,scf,scf,kg CO2,Other Biomass Gases,0.034106,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_167,Fuels,Gaseous,Biomass Fuels,scf,scf,g CH4,Other Biomass Gases,0.002096,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_168,Fuels,Gaseous,Biomass Fuels,scf,scf,g N2O,Other Biomass Gases,0.000413,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_169,,,Petroleum Products,gallon,gallon,mmbtu,Asphalt and Road Oil,0.158,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_170,,,Petroleum Products,mmbtu,mmbtu,kg CO2,Asphalt and Road Oil,75.36,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_171,,,Petroleum Products,mmbtu,mmbtu,g CH4,Asphalt and Road Oil,3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_172,,,Petroleum Products,mmbtu,mmbtu,g N2O,Asphalt and Road Oil,0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_173,,,Petroleum Products,gallon,gallon,kg CO2,Asphalt and Road Oil,11.91,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_174,,,Petroleum Products,gallon,gallon,g CH4,Asphalt and Road Oil,0.47,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_175,,,Petroleum Products,gallon,gallon,g N2O,Asphalt and Road Oil,0.09,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_176,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Aviation Gasoline,0.12,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_177,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Aviation Gasoline,69.25,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_178,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Aviation Gasoline,3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_179,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Aviation Gasoline,0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_180,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Aviation Gasoline,8.31,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_181,Fuels,,Petroleum Products,gallon,gallon,g CH4,Aviation Gasoline,0.36,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_182,Fuels,,Petroleum Products,gallon,gallon,g N2O,Aviation Gasoline,0.07,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_183,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Butane,0.103,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_184,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Butane,64.77,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_185,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Butane,3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_186,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Butane,0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_187,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Butane,6.67,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_188,Fuels,,Petroleum Products,gallon,gallon,g CH4,Butane,0.31,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_189,Fuels,,Petroleum Products,gallon,gallon,g N2O,Butane,0.06,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_190,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Butylene,0.105,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_191,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Butylene,68.72,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_192,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Butylene,3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_193,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Butylene,0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_194,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Butylene,7.22,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_195,Fuels,,Petroleum Products,gallon,gallon,g CH4,Butylene,0.32,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_196,Fuels,,Petroleum Products,gallon,gallon,g N2O,Butylene,0.06,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_197,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Crude Oil,0.138,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_198,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Crude Oil,74.54,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_199,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Crude Oil,3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_200,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Crude Oil,0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_201,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Crude Oil,10.29,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_202,Fuels,,Petroleum Products,gallon,gallon,g CH4,Crude Oil,0.41,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_203,Fuels,,Petroleum Products,gallon,gallon,g N2O,Crude Oil,0.08,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_204,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Distillate Fuel Oil No. 1,0.139,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_205,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Distillate Fuel Oil No. 1,73.25,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_206,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Distillate Fuel Oil No. 1,3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_207,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Distillate Fuel Oil No. 1,0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_208,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Distillate Fuel Oil No. 1,10.18,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_209,Fuels,,Petroleum Products,gallon,gallon,g CH4,Distillate Fuel Oil No. 1,0.42,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_210,Fuels,,Petroleum Products,gallon,gallon,g N2O,Distillate Fuel Oil No. 1,0.08,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_211,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Distillate Fuel Oil No. 2,0.138,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_212,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Distillate Fuel Oil No. 2,73.96,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_213,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Distillate Fuel Oil No. 2,3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_214,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Distillate Fuel Oil No. 2,0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_215,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Distillate Fuel Oil No. 2,10.21,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_216,Fuels,,Petroleum Products,gallon,gallon,g CH4,Distillate Fuel Oil No. 2,0.41,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_217,Fuels,,Petroleum Products,gallon,gallon,g N2O,Distillate Fuel Oil No. 2,0.08,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_218,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Distillate Fuel Oil No. 4,0.146,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_219,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Distillate Fuel Oil No. 4,75.04,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_220,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Distillate Fuel Oil No. 4,3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_221,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Distillate Fuel Oil No. 4,0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_222,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Distillate Fuel Oil No. 4,10.96,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_223,Fuels,,Petroleum Products,gallon,gallon,g CH4,Distillate Fuel Oil No. 4,0.44,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_224,Fuels,,Petroleum Products,gallon,gallon,g N2O,Distillate Fuel Oil No. 4,0.09,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_225,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Ethane,0.068,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_226,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Ethane,59.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_227,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Ethane,3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_228,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Ethane,0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_229,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Ethane,4.05,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_230,Fuels,,Petroleum Products,gallon,gallon,g CH4,Ethane,0.2,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_231,Fuels,,Petroleum Products,gallon,gallon,g N2O,Ethane,0.04,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_232,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Ethylene,0.058,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_233,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Ethylene,65.96,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_234,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Ethylene,3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_235,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Ethylene,0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_236,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Ethylene,3.83,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_237,Fuels,,Petroleum Products,gallon,gallon,g CH4,Ethylene,0.17,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_238,Fuels,,Petroleum Products,gallon,gallon,g N2O,Ethylene,0.03,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_239,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Heavy Gas Oils,0.148,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_240,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Heavy Gas Oils,74.92,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_241,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Heavy Gas Oils,3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_242,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Heavy Gas Oils,0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_243,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Heavy Gas Oils,11.09,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_244,Fuels,,Petroleum Products,gallon,gallon,g CH4,Heavy Gas Oils,0.44,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_245,Fuels,,Petroleum Products,gallon,gallon,g N2O,Heavy Gas Oils,0.09,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_246,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Isobutane,0.099,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_247,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Isobutane,64.94,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_248,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Isobutane,3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_249,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Isobutane,0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_250,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Isobutane,6.43,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_251,Fuels,,Petroleum Products,gallon,gallon,g CH4,Isobutane,0.3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_252,Fuels,,Petroleum Products,gallon,gallon,g N2O,Isobutane,0.06,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_253,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Isobutylene,0.103,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_254,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Isobutylene,68.86,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_255,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Isobutylene,3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_256,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Isobutylene,0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_257,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Isobutylene,7.09,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_258,Fuels,,Petroleum Products,gallon,gallon,g CH4,Isobutylene,0.31,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_259,Fuels,,Petroleum Products,gallon,gallon,g N2O,Isobutylene,0.06,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_260,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Kerosene,0.135,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_261,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Kerosene,75.2,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_262,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Kerosene,3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_263,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Kerosene,0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_264,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Kerosene,10.15,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_265,Fuels,,Petroleum Products,gallon,gallon,g CH4,Kerosene,0.41,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_266,Fuels,,Petroleum Products,gallon,gallon,g N2O,Kerosene,0.08,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_267,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Kerosene-Type Jet Fuel,0.135,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_268,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Kerosene-Type Jet Fuel,72.22,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_269,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Kerosene-Type Jet Fuel,3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_270,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Kerosene-Type Jet Fuel,0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_271,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Kerosene-Type Jet Fuel,9.75,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_272,Fuels,,Petroleum Products,gallon,gallon,g CH4,Kerosene-Type Jet Fuel,0.41,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_273,Fuels,,Petroleum Products,gallon,gallon,g N2O,Kerosene-Type Jet Fuel,0.08,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_274,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Liquefied Petroleum Gases (LPG),0.092,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_275,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Liquefied Petroleum Gases (LPG),61.71,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_276,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Liquefied Petroleum Gases (LPG),3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_277,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Liquefied Petroleum Gases (LPG),0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_278,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Liquefied Petroleum Gases (LPG),5.68,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_279,Fuels,,Petroleum Products,gallon,gallon,g CH4,Liquefied Petroleum Gases (LPG),0.28,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_280,Fuels,,Petroleum Products,gallon,gallon,g N2O,Liquefied Petroleum Gases (LPG),0.06,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_281,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Lubricants,0.144,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_282,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Lubricants,74.27,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_283,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Lubricants,3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_284,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Lubricants,0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_285,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Lubricants,10.69,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_286,Fuels,,Petroleum Products,gallon,gallon,g CH4,Lubricants,0.43,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_287,Fuels,,Petroleum Products,gallon,gallon,g N2O,Lubricants,0.09,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_288,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Motor Gasoline,0.125,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_289,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Motor Gasoline,70.22,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_290,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Motor Gasoline,3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_291,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Motor Gasoline,0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_292,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Motor Gasoline,8.78,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_293,Fuels,,Petroleum Products,gallon,gallon,g CH4,Motor Gasoline,0.38,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_294,Fuels,,Petroleum Products,gallon,gallon,g N2O,Motor Gasoline,0.08,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_295,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Naphtha (<401 deg F),0.125,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_296,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Naphtha (<401 deg F),68.02,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_297,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Naphtha (<401 deg F),3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_298,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Naphtha (<401 deg F),0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_299,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Naphtha (<401 deg F),8.5,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_300,Fuels,,Petroleum Products,gallon,gallon,g CH4,Naphtha (<401 deg F),0.38,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_301,Fuels,,Petroleum Products,gallon,gallon,g N2O,Naphtha (<401 deg F),0.08,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_302,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Natural Gasoline,0.11,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_303,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Natural Gasoline,66.88,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_304,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Natural Gasoline,3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_305,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Natural Gasoline,0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_306,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Natural Gasoline,7.36,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_307,Fuels,,Petroleum Products,gallon,gallon,g CH4,Natural Gasoline,0.33,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_308,Fuels,,Petroleum Products,gallon,gallon,g N2O,Natural Gasoline,0.07,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_309,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Other Oil (>401 deg F),0.139,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_310,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Other Oil (>401 deg F),76.22,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_311,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Other Oil (>401 deg F),3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_312,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Other Oil (>401 deg F),0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_313,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Other Oil (>401 deg F),10.59,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_314,Fuels,,Petroleum Products,gallon,gallon,g CH4,Other Oil (>401 deg F),0.42,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_315,Fuels,,Petroleum Products,gallon,gallon,g N2O,Other Oil (>401 deg F),0.08,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_316,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Pentanes Plus,0.11,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_317,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Pentanes Plus,70.02,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_318,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Pentanes Plus,3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_319,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Pentanes Plus,0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_320,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Pentanes Plus,7.7,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_321,Fuels,,Petroleum Products,gallon,gallon,g CH4,Pentanes Plus,0.33,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_322,Fuels,,Petroleum Products,gallon,gallon,g N2O,Pentanes Plus,0.07,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_323,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Petrochemical Feedstocks,0.125,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_324,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Petrochemical Feedstocks,71.02,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_325,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Petrochemical Feedstocks,3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_326,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Petrochemical Feedstocks,0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_327,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Petrochemical Feedstocks,8.88,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_328,Fuels,,Petroleum Products,gallon,gallon,g CH4,Petrochemical Feedstocks,0.38,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_329,Fuels,,Petroleum Products,gallon,gallon,g N2O,Petrochemical Feedstocks,0.08,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_330,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Propane,0.091,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_331,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Propane,62.87,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_332,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Propane,3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_333,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Propane,0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_334,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Propane,5.72,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_335,Fuels,,Petroleum Products,gallon,gallon,g CH4,Propane,0.27,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_336,Fuels,,Petroleum Products,gallon,gallon,g N2O,Propane,0.05,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_337,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Propylene,0.091,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_338,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Propylene,67.77,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_339,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Propylene,3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_340,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Propylene,0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_341,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Propylene,6.17,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_342,Fuels,,Petroleum Products,gallon,gallon,g CH4,Propylene,0.27,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_343,Fuels,,Petroleum Products,gallon,gallon,g N2O,Propylene,0.05,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_344,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Residual Fuel Oil No. 5,0.14,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_345,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Residual Fuel Oil No. 5,72.93,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_346,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Residual Fuel Oil No. 5,3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_347,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Residual Fuel Oil No. 5,0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_348,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Residual Fuel Oil No. 5,10.21,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_349,Fuels,,Petroleum Products,gallon,gallon,g CH4,Residual Fuel Oil No. 5,0.42,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_350,Fuels,,Petroleum Products,gallon,gallon,g N2O,Residual Fuel Oil No. 5,0.08,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_351,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Residual Fuel Oil No. 6,0.15,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_352,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Residual Fuel Oil No. 6,75.1,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_353,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Residual Fuel Oil No. 6,3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_354,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Residual Fuel Oil No. 6,0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_355,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Residual Fuel Oil No. 6,11.27,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_356,Fuels,,Petroleum Products,gallon,gallon,g CH4,Residual Fuel Oil No. 6,0.45,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_357,Fuels,,Petroleum Products,gallon,gallon,g N2O,Residual Fuel Oil No. 6,0.09,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_358,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Special Naphtha,0.125,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_359,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Special Naphtha,72.34,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_360,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Special Naphtha,3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_361,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Special Naphtha,0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_362,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Special Naphtha,9.04,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_363,Fuels,,Petroleum Products,gallon,gallon,g CH4,Special Naphtha,0.38,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_364,Fuels,,Petroleum Products,gallon,gallon,g N2O,Special Naphtha,0.08,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_365,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Unfinished Oils,0.139,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_366,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Unfinished Oils,74.54,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_367,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Unfinished Oils,3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_368,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Unfinished Oils,0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_369,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Unfinished Oils,10.36,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_370,Fuels,,Petroleum Products,gallon,gallon,g CH4,Unfinished Oils,0.42,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_371,Fuels,,Petroleum Products,gallon,gallon,g N2O,Unfinished Oils,0.08,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_372,Fuels,,Petroleum Products,gallon,gallon,mmbtu,Used Oil,0.138,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_373,Fuels,,Petroleum Products,mmbtu,mmbtu,kg CO2,Used Oil,74,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_374,Fuels,,Petroleum Products,mmbtu,mmbtu,g CH4,Used Oil,3,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_375,Fuels,,Petroleum Products,mmbtu,mmbtu,g N2O,Used Oil,0.6,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_376,Fuels,,Petroleum Products,gallon,gallon,kg CO2,Used Oil,10.21,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_377,Fuels,,Petroleum Products,gallon,gallon,g CH4,Used Oil,0.41,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_378,Fuels,,Petroleum Products,gallon,gallon,g N2O,Used Oil,0.08,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_379,Fuels,Liquid,Biomass Fuels,gallon,gallon,mmbtu,Biodiesel (100%),0.128,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_380,Fuels,Liquid,Biomass Fuels,mmbtu,mmbtu,kg CO2,Biodiesel (100%),73.84,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_381,Fuels,Liquid,Biomass Fuels,mmbtu,mmbtu,g CH4,Biodiesel (100%),1.1,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_382,Fuels,Liquid,Biomass Fuels,mmbtu,mmbtu,g N2O,Biodiesel (100%),0.11,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_383,Fuels,Liquid,Biomass Fuels,gallon,gallon,kg CO2,Biodiesel (100%),9.45,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_384,Fuels,Liquid,Biomass Fuels,gallon,gallon,g CH4,Biodiesel (100%),0.14,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_385,Fuels,Liquid,Biomass Fuels,gallon,gallon,g N2O,Biodiesel (100%),0.01,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_386,Fuels,Liquid,Biomass Fuels,gallon,gallon,mmbtu,Ethanol (100%),0.084,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_387,Fuels,Liquid,Biomass Fuels,mmbtu,mmbtu,kg CO2,Ethanol (100%),68.44,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_388,Fuels,Liquid,Biomass Fuels,mmbtu,mmbtu,g CH4,Ethanol (100%),1.1,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_389,Fuels,Liquid,Biomass Fuels,mmbtu,mmbtu,g N2O,Ethanol (100%),0.11,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_390,Fuels,Liquid,Biomass Fuels,gallon,gallon,kg CO2,Ethanol (100%),5.75,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_391,Fuels,Liquid,Biomass Fuels,gallon,gallon,g CH4,Ethanol (100%),0.09,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_392,Fuels,Liquid,Biomass Fuels,gallon,gallon,g N2O,Ethanol (100%),0.01,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_393,Fuels,Liquid,Biomass Fuels,gallon,gallon,mmbtu,Rendered Animal Fat,0.125,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_394,Fuels,Liquid,Biomass Fuels,mmbtu,mmbtu,kg CO2,Rendered Animal Fat,71.06,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_395,Fuels,Liquid,Biomass Fuels,mmbtu,mmbtu,g CH4,Rendered Animal Fat,1.1,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_396,Fuels,Liquid,Biomass Fuels,mmbtu,mmbtu,g N2O,Rendered Animal Fat,0.11,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_397,Fuels,Liquid,Biomass Fuels,gallon,gallon,kg CO2,Rendered Animal Fat,8.88,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_398,Fuels,Liquid,Biomass Fuels,gallon,gallon,g CH4,Rendered Animal Fat,0.14,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_399,Fuels,Liquid,Biomass Fuels,gallon,gallon,g N2O,Rendered Animal Fat,0.01,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_400,Fuels,Liquid,Biomass Fuels,gallon,gallon,mmbtu,Vegetable Oil,0.12,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_401,Fuels,Liquid,Biomass Fuels,mmbtu,mmbtu,kg CO2,Vegetable Oil,81.55,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_402,Fuels,Liquid,Biomass Fuels,mmbtu,mmbtu,g CH4,Vegetable Oil,1.1,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_403,Fuels,Liquid,Biomass Fuels,mmbtu,mmbtu,g N2O,Vegetable Oil,0.11,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_404,Fuels,Liquid,Biomass Fuels,gallon,gallon,kg CO2,Vegetable Oil,9.79,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_405,Fuels,Liquid,Biomass Fuels,gallon,gallon,g CH4,Vegetable Oil,0.13,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_406,Fuels,Liquid,Biomass Fuels,gallon,gallon,g N2O,Vegetable Oil,0.01,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_407,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,mmbtu,North American Softwood,,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_408,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,mmbtu,mmbtu,kg CO2,North American Softwood,94.4,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_409,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,mmbtu,mmbtu,g CH4,North American Softwood,1.9,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_410,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,mmbtu,mmbtu,g N2O,North American Softwood,0.42,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_411,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,kg CO2,North American Softwood,,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_412,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,g CH4,North American Softwood,,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_413,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,g N2O,North American Softwood,,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_414,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,mmbtu,North American Hardwood,,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_415,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,mmbtu,mmbtu,kg CO2,North American Hardwood,93.7,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_416,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,mmbtu,mmbtu,g CH4,North American Hardwood,1.9,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_417,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,mmbtu,mmbtu,g N2O,North American Hardwood,0.42,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_418,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,kg CO2,North American Hardwood,,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_419,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,g CH4,North American Hardwood,,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_420,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,g N2O,North American Hardwood,,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_421,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,mmbtu,Bagasse,,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_422,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,mmbtu,mmbtu,kg CO2,Bagasse,95.5,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_423,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,mmbtu,mmbtu,g CH4,Bagasse,1.9,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_424,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,mmbtu,mmbtu,g N2O,Bagasse,0.42,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_425,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,kg CO2,Bagasse,,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_426,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,g CH4,Bagasse,,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_427,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,g N2O,Bagasse,,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_428,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,mmbtu,Bamboo,,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_429,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,mmbtu,mmbtu,kg CO2,Bamboo,93.7,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_430,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,mmbtu,mmbtu,g CH4,Bamboo,1.9,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_431,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,mmbtu,mmbtu,g N2O,Bamboo,0.42,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_432,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,kg CO2,Bamboo,,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_433,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,g CH4,Bamboo,,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_434,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,g N2O,Bamboo,,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_435,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,mmbtu,Straw,,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_436,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,mmbtu,mmbtu,kg CO2,Straw,95.1,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_437,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,mmbtu,mmbtu,g CH4,Straw,1.9,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_438,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,mmbtu,mmbtu,g N2O,Straw,0.42,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_439,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,kg CO2,Straw,,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_440,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,g CH4,Straw,,2021-01-01 00:00:00,2021-12-31 23:59:59
+2021_441,Fuels,"Kraft Pulping Liquor, by Wood Furnish",Biomass Fuels,gallon,gallon,g N2O,Straw,,2021-01-01 00:00:00,2021-12-31 23:59:59
+
+
+
+
+
+
