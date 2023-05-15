@@ -1,0 +1,20 @@
+PREFIX cf: <https://w3id.org/ecfo#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+PREFIX ns2: <https://w3id.org/ecfo#>
+PREFIX ns3: <http://www.w3.org/2006/time#>
+
+
+SELECT ?conversionFactors ?targetUnitNames ?lookUpNames ?endDate
+WHERE{
+    ?conversionFactors rdf:type ns2:EmissionConversionFactor.
+    ?conversionFactors ns2:sourceUnit ?sourceUnit.
+    FILTER NOT EXISTS{?sourceUnit rdfs:label ?sourceUnitNames. }.
+    ?conversionFactors <https://w3id.org/ecfo#targetUnit> ?targetUnit.
+    ?targetUnit rdfs:label ?targetUnitNames.
+    ?conversionFactors rdfs:description ?lookUpNames.
+    ?conversionFactors <https://w3id.org/ecfo#hasApplicablePeriod> ?applicablePeriod.
+    ?applicablePeriod <http://www.w3.org/2006/time#hasEnd> ?endDateIrl.
+    ?endDateIrl <http://www.w3.org/2006/time#inXSDDate> ?endDate
+}

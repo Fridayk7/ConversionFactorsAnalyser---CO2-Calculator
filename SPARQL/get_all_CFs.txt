@@ -1,0 +1,21 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?conversionFactors ?values ?sourceUnitNames ?targetUnitNames ?lookUpNames ?endDate
+(group_concat(?tagNames; separator=", ") AS ?tagNames)
+
+WHERE{
+    ?conversionFactors rdf:type <https://w3id.org/ecfo#EmissionConversionFactor>.
+    ?conversionFactors rdf:value ?values.
+    ?conversionFactors <https://w3id.org/ecfo#sourceUnit> ?sourceUnit.
+    ?sourceUnit rdfs:label ?sourceUnitNames.
+    ?conversionFactors <https://w3id.org/ecfo#targetUnit> ?targetUnit.
+    ?targetUnit rdfs:label ?targetUnitNames.
+    ?conversionFactors rdfs:description ?lookUpNames.
+    ?conversionFactors <https://w3id.org/ecfo#hasApplicablePeriod> ?applicablePeriod.
+    ?applicablePeriod <http://www.w3.org/2006/time#hasEnd> ?endDateIrl.
+    ?endDateIrl <http://www.w3.org/2006/time#inXSDDate> ?endDate.
+        ?conversionFactors <https://w3id.org/ecfo#hasTag> ?tags.
+    ?tags rdfs:label ?tagNames
+}
+GROUP BY  ?conversionFactors ?values ?sourceUnitNames ?targetUnitNames ?lookUpNames ?endDate

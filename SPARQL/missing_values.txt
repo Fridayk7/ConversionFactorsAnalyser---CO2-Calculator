@@ -1,0 +1,19 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ns2: <https://w3id.org/ecfo#>
+PREFIX ns3: <http://www.w3.org/2006/time#>
+
+SELECT ?conversionFactors ?sourceUnitNames ?targetUnitNames ?lookUpNames ?endDate ?comments
+WHERE{
+    ?conversionFactors rdf:type ns2:EmissionConversionFactor.
+    ?conversionFactors ns2:sourceUnit ?sourceUnit.
+    ?sourceUnit rdfs:label ?sourceUnitNames.
+    ?conversionFactors ns2:targetUnit ?targetUnit.
+    ?targetUnit rdfs:label ?targetUnitNames.
+    FILTER NOT EXISTS{?conversionFactors rdf:value ?missingValues }.
+    ?conversionFactors rdfs:description ?lookUpNames.
+    ?conversionFactors ns2:hasApplicablePeriod ?applicablePeriod.
+    ?applicablePeriod ns3:hasEnd ?endDateIrl.
+    ?endDateIrl ns3:inXSDDate ?endDate.  
+    ?conversioFactors rdfs:comment    ?comments
+}
